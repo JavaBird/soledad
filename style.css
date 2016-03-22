@@ -80,13 +80,13 @@ Navigation font: Raleway, sans-serif
 /* = Import font
 -----------------------------------------------------*/
 /** Raleway font **/
-@import url(//fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800,900,200,100);
+@import url(//fonts.useso.com/css?family=Raleway:400,300,500,600,700,800,900,200,100);
 
 /** PT Serif font **/
-@import url(//fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic&subset=latin,cyrillic-ext,latin-ext,cyrillic);
+@import url(//fonts.useso.com/css?family=PT+Serif:400,400italic,700,700italic&subset=latin,cyrillic-ext,latin-ext,cyrillic);
 
 /** Playfair Display SC **/
-@import url(//fonts.googleapis.com/css?family=Playfair+Display+SC:900);
+@import url(//fonts.useso.com/css?family=Playfair+Display+SC:900);
 
 /* = FontAwesome
  * Font Awesome 4.3.0 by @davegandy - http://fontawesome.io - @fontawesome
@@ -540,11 +540,11 @@ div.penci-topbar-menu > ul ul.sub-menu li:first-child > a {
 }
 #navigation .menu li a {
 	font-family: 'Raleway', sans-serif;
-	font-size: 12px;
+	font-size: 16px;
 	letter-spacing: 1px;
 	color: #313131;
 	line-height: 58px;
-	text-transform: uppercase;
+
 	display: inline-block;
 	-o-transition: .3s;
 	-ms-transition: .3s;
@@ -1042,7 +1042,6 @@ li.penci-mega-menu > ul.sub-menu {
 	font-size: 14px;
 	font-weight: normal;
 	letter-spacing: 0;
-	text-transform: uppercase;
 	color: #313131;
 	margin: 0;
 	position: relative;
