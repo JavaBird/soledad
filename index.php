@@ -1,233 +1,19 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Soledad Magazine | Multi-Concept Blog/Magazine WordPress Theme Sites</title>
-<link rel="profile" href="http://gmpg.org/xfn/11" />
-<link rel="alternate" type="application/rss+xml" title="Soledad Magazine RSS Feed" href="http://pencidesign.com/soledad/soledad-magazine/feed/" />
-<link rel="alternate" type="application/atom+xml" title="Soledad Magazine Atom Feed" href="http://pencidesign.com/soledad/soledad-magazine/feed/atom/" />
-<link rel="pingback" href="http://pencidesign.com/soledad/soledad-magazine/xmlrpc.php" />
-<!--[if lt IE 9]>
-<script src="http://pencidesign.com/soledad/soledad-magazine/wp-content/themes/soledad/js/html5.js"></script>
-<style type="text/css">
-    .featured-carousel .item { opacity: 1; }
-</style>
-<![endif]-->
-<link rel="alternate" type="application/rss+xml" title="Soledad Magazine &raquo; Feed" href="http://pencidesign.com/soledad/soledad-magazine/feed/" />
-<link rel="alternate" type="application/rss+xml" title="Soledad Magazine &raquo; Comments Feed" href="http://pencidesign.com/soledad/soledad-magazine/comments/feed/" />
-<script type="text/javascript">
-    window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/pencidesign.com\/soledad\/soledad-magazine\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
-    !function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
-</script>
-<style type="text/css">
-    img.wp-smiley,
-    img.emoji {
-        display: inline !important;
-        border: none !important;
-        box-shadow: none !important;
-        height: 1em !important;
-        width: 1em !important;
-        margin: 0 .07em !important;
-        vertical-align: -0.1em !important;
-        background: none !important;
-        padding: 0 !important;
-    }
-</style>
-<link rel='stylesheet' id='contact-form-7-css'  href='http://pencidesign.com/soledad/soledad-magazine/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.4' type='text/css' media='all' />
-<link rel='stylesheet' id='mailchimp-for-wp-checkbox-css'  href='http://pencidesign.com/soledad/soledad-magazine/wp-content/plugins/mailchimp-for-wp/assets/css/checkbox.min.css?ver=2.3.15' type='text/css' media='all' />
-<link rel='stylesheet' id='penci_style-css'  href='http://pencidesign.com/soledad/soledad-magazine/wp-content/themes/soledad/style.css?ver=2.4' type='text/css' media='all' />
-<link rel='stylesheet' id='instag-slider-css'  href='http://pencidesign.com/soledad/soledad-magazine/wp-content/plugins/instagram-slider-widget/assets/css/instag-slider.css?ver=1.3.0' type='text/css' media='all' />
-<link rel='stylesheet' id='mailchimp-for-wp-form-css'  href='http://pencidesign.com/soledad/soledad-magazine/wp-content/plugins/mailchimp-for-wp/assets/css/form.min.css?ver=2.3.15' type='text/css' media='all' />
-<script type='text/javascript' src='http://pencidesign.com/soledad/soledad-magazine/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
-<script type='text/javascript' src='http://pencidesign.com/soledad/soledad-magazine/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
-<script type='text/javascript' src='http://pencidesign.com/soledad/soledad-magazine/wp-content/plugins/instagram-slider-widget/assets/js/jquery.flexslider-min.js?ver=2.2'></script>
-<link rel='https://api.w.org/' href='http://pencidesign.com/soledad/soledad-magazine/wp-json/' />
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://pencidesign.com/soledad/soledad-magazine/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://pencidesign.com/soledad/soledad-magazine/wp-includes/wlwmanifest.xml" />
-<meta name="generator" content="WordPress 4.4.2" />
-<style type="text/css">
-    @import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700);.penci-soledad-demos-one-click{font-family:'Lato',sans-serif;text-align:center;position:fixed;top:50%;left:0;width:160px;background-color:#fff;border:1px solid #DEDEDE;border-left:none;padding:5px 12px;z-index:100;height:560px;margin-top:-280px;-webkit-transition:all .4s;-moz-transition:all .4s;-o-transition:all .4s;transition:all .4s}.penci-soledad-demos-one-click.hide-demos-bar{left:-160px}.penci-button-options{position:absolute;top:37px;right:-40px;cursor:pointer;z-index:12;background:#fff;width:40px;height:44px;text-align:center;border-radius:0 5px 5px 0;-webkit-border-radius:0 5px 5px 0;border:1px solid #DEDEDE;border-left:none}@-webkit-keyframes animate-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}@keyframes animate-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}.penci-button-options i{font-size:20px;line-height:42px;color:#E42929;margin-right:2px;-webkit-animation:animate-spin 2s infinite linear;animation:animate-spin 2s infinite linear}.header-demos{font-family:'Lato',sans-serif;font-weight:700;font-size:14px;line-height:24px!important;color:#313131;border-bottom:1px solid #DEDEDE;padding:1px 0 6px;margin-bottom:15px;text-transform:uppercase}.soledad-demos-description{font-family:'Lato',sans-serif;font-size:11px;line-height:1.7;margin-bottom:14px;color:#2D2D2D}.penci-soledad-skin{display:inline-block;width:100%;vertical-align:top}.penci-click-demos-style{text-align:center;margin-bottom:12px}.penci-click-demos-style a{font-family:'Lato',sans-serif;display:block;position:relative;font-size:12px;height:23px;line-height:22px;border:1px solid #DEDEDE;color:#888!important;transition:all .2s;-webkit-transition:all .2s}.penci-click-demos-style a:hover{color:#313131!important;border-color:#888}.penci-click-demos-style a.penci-buy-now-click{ background: #313131;color: #fff !important;border-color: #313131; }.penci-click-demos-style a span{font-family:'Lato',sans-serif;color:#FF2E2E;font-size:9px;position:absolute;right:3px;top:3px;line-height:1}@media only screen and (max-width: 960px){.penci-soledad-demos-one-click{display:none}}.pllexislider .slides li{position:relative}.pllexislider-overlay ul li .jr-insta-wrap{position:absolute;bottom:0;width:100%}.pllexislider .slides li > a{position:absolute;top:0;left:0;width:100%;height:100%;background-size:cover;background-position:center center}.widget .jr-insta-thumb ul.thumbnails.jr_col_3 li{padding-bottom:33.33%!important;position:relative}.widget .jr-insta-thumb ul.thumbnails.jr_col_3 li > a{position:absolute;top:5px;left:5px;right:5px;bottom:5px;background-size:cover;background-position:center center;width: auto;}.jr-insta-thumb ul.thumbnails.no-border.jr_col_8 li{padding-bottom:12.5%!important;position:relative}.jr-insta-thumb ul.thumbnails.no-border.jr_col_8 li > a{position:absolute;top:0;left:0;width:100%;height:100%;background-size:cover;background-position:center center}@media only screen and (max-width: 960px){.widget .jr-insta-thumb ul.thumbnails.no-border.jr_col_8 li{width:25%!important;padding-bottom:25%!important}}@media only screen and (max-width: 640px){.widget .jr-insta-thumb ul.thumbnails.jr_col_3 li{width: 50% !important;padding-bottom:50%!important}}
-    #navigation ul.menu li.featured-text a:after{ content: "HOT" !important; font-family: 'Lato',sans-serif !important;color: #FF2E2E !important;font-size:8px !important;right: 3px;top:3px;line-height:1 !important;vertical-align:top !important;font-weight:bold !important;margin-left:2px !important;}#navigation ul.menu li.featured-new a:after{ content: "NEW" !important; font-family: 'Lato',sans-serif !important;color: #FF2E2E !important;font-size:8px !important;right: 3px;top:3px;line-height:1 !important;vertical-align:top !important;font-weight:bold !important;margin-left:2px !important;}
-    .wrapper-boxed.enable-boxed .jr-insta-thumb ul.thumbnails.no-border.jr_col_8 li{width:16.66%!important;padding-bottom:16.66%!important}.wrapper-boxed.enable-boxed .jr-insta-thumb ul.thumbnails.no-border.jr_col_8 li:nth-child(7),.wrapper-boxed.enable-boxed .jr-insta-thumb ul.thumbnails.no-border.jr_col_8 li:nth-child(8),.wrapper-boxed.enable-boxed .jr-insta-thumb ul.thumbnails.no-border.jr_col_8 li:nth-child(15),.wrapper-boxed.enable-boxed .jr-insta-thumb ul.thumbnails.no-border.jr_col_8 li:nth-child(16){display:none!important}@media only screen and (max-width: 960px){.wrapper-boxed.enable-boxed .widget .jr-insta-thumb ul.thumbnails.no-border.jr_col_8 li{width:33.33%!important;padding-bottom:33.33%!important}}
-    .jr-insta-thumb ul.thumbnails li a:before, .jr-insta-thumb ul.thumbnails li a:after{top: 5px; left: 5px; right: 5px; bottom: 5px;}
-</style>
-<script type="text/javascript">
-    function penci_demo_fix_insta() {
-        var $j = jQuery;
-        $j('.pllexislider' ).each( function() {
-            var $this = $j(this ),
-                    $this_height = $this.width();
-            $this.find('li' ).css( 'height', $this_height );
-        } );
-    }
-    jQuery(window ).load( function(){
-        penci_demo_fix_insta();
-    } );
-    jQuery(window ).resize( function() {
-        penci_demo_fix_insta();
-    } );
-</script>
-<style type="text/css">
-    @import url(//fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic);
-    h1, h2, h3, h4, h5, h6, h2.penci-heading-video, .penci-photo-2-effect figcaption h2, .headline-title, a.penci-topbar-post-title, #navigation .menu li a, #sidebar-nav .menu li a, .penci-slider .pencislider-container .pencislider-content .pencislider-title, .penci-slider .pencislider-container .pencislider-content .pencislider-button,
-    .author-quote span, .penci-more-link a.more-link, .penci-post-share-box .dt-share, .post-share a .dt-share, .author-content h5, .post-pagination h5, .post-box-title, .penci-countdown .countdown-amount, .penci-countdown .countdown-period, .penci-pagination a, .penci-pagination .disable-url, ul.footer-socials li a span,
-    .widget input[type="submit"], #sidebar .widget-title, #respond h3.comment-reply-title span, .widget-social.show-text a span, .footer-widget-wrapper .widget .widget-title,
-    .container.penci-breadcrumb span, .container.penci-breadcrumb span a, .error-404 .go-back-home a, .post-entry .penci-portfolio-filter ul li a, .portfolio-overlay-content .portfolio-short .portfolio-title a, .home-featured-cat-content .magcat-detail h3 a, .post-entry blockquote cite,
-    .post-entry blockquote .author, .tags-share-box.hide-tags.page-share .share-title, .widget ul.side-newsfeed li .side-item .side-item-text h4 a, .thecomment .comment-text span.author, .thecomment .comment-text span.author a, .post-comments span.reply a, #respond h3, #respond label, .wpcf7 label, #respond #submit, .wpcf7 input[type="submit"], .widget_wysija input[type="submit"], .archive-box span,
-    .archive-box h1, .gallery .gallery-caption, .contact-form input[type=submit], ul.penci-topbar-menu > li a, div.penci-topbar-menu > ul > li a { font-family: 'Open Sans', sans-serif; font-weight: normal; }
-    @import url(//fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic);
-    body, textarea, #respond textarea, .widget input[type="text"], .widget input[type="email"], .widget input[type="date"], .widget input[type="number"], .wpcf7 textarea, .mc4wp-form input, #respond input, .wpcf7 input, #searchform input.search-input, ul.homepage-featured-boxes .penci-fea-in h4, .widget.widget_categories ul li span.category-item-count, .header-slogan .header-slogan-text, .about-widget .about-me-heading, .widget ul.side-newsfeed li .side-item .side-item-text .side-item-meta { font-family: 'Open Sans', sans-serif;  }
-    h1, h2, h3, h4, h5, h6, #navigation .menu li a, #sidebar-nav .menu li a, a.penci-topbar-post-title, .penci-slider .pencislider-container .pencislider-content .pencislider-title, .penci-slider .pencislider-container .pencislider-content .pencislider-button,
-    .headline-title, .author-quote span, .penci-more-link a.more-link, .author-content h5, .post-pagination h5, .post-box-title, .penci-countdown .countdown-amount, .penci-countdown .countdown-period, .penci-pagination a, .penci-pagination .disable-url, ul.footer-socials li a span,
-    #sidebar .widget-title, #respond h3.comment-reply-title span, .widget-social.show-text a span, .footer-widget-wrapper .widget .widget-title,
-    .error-404 .go-back-home a, .home-featured-cat-content .magcat-detail h3 a, .post-entry blockquote cite,
-    .post-entry blockquote .author, .tags-share-box.hide-tags.page-share .share-title, .widget ul.side-newsfeed li .side-item .side-item-text h4 a, .thecomment .comment-text span.author, .thecomment .comment-text span.author a, #respond h3, #respond label, .wpcf7 label, #respond #submit, .wpcf7 input[type="submit"], .widget_wysija input[type="submit"], .archive-box span,
-    .archive-box h1, .gallery .gallery-caption, .widget input[type="submit"], .contact-form input[type=submit], ul.penci-topbar-menu > li a, div.penci-topbar-menu > ul > li a { font-weight: 600; }
-    body.penci-body-boxed { background-repeat:repeat; }
-    body.penci-body-boxed { background-attachment:scroll; }
-    body.penci-body-boxed { background-size:auto; }
-    #header .inner-header .container { padding:60px 0; }
-    #navigation .penci-megamenu .post-mega-title a { font-size:13px; }
-    a, .post-entry .penci-portfolio-filter ul li a:hover, .post-entry .penci-portfolio-filter ul li.active a, .penci-countdown .countdown-amount, .archive-box h1, .post-entry a, .container.penci-breadcrumb span a:hover, .post-entry blockquote:before, .post-entry blockquote cite, .post-entry blockquote .author, .penci-pagination a:hover, ul.penci-topbar-menu > li a:hover, div.penci-topbar-menu > ul > li a:hover { color: #f88c00; }
-    .penci-home-popular-post ul.slick-dots li button:hover, .penci-home-popular-post ul.slick-dots li.slick-active button, .archive-box:after, .archive-box:before, .penci-page-header:after, .penci-page-header:before, .post-entry blockquote .author span:after, .error-image:after, .error-404 .go-back-home a:after, .penci-header-signup-form, .woocommerce .page-title:before, .woocommerce .page-title:after, .woocommerce span.onsale, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce nav.woocommerce-pagination ul li span.current, .woocommerce div.product .entry-summary div[itemprop="description"]:before, .woocommerce div.product .entry-summary div[itemprop="description"] blockquote .author span:after, .woocommerce div.product .woocommerce-tabs #tab-description blockquote .author span:after, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, #top-search.shoping-cart-icon > a > span { background-color: #f88c00; }
-    .penci-pagination ul.page-numbers li span.current { color: #fff; background: #f88c00; border-color: #f88c00; }
-    .footer-instagram h4.footer-instagram-title > span:before, .woocommerce nav.woocommerce-pagination ul li span.current { border-color: #f88c00; }
-    .woocommerce .woocommerce-error, .woocommerce .woocommerce-info, .woocommerce .woocommerce-message { border-top-color: #f88c00; }
-    .penci-slider ol.penci-control-nav li a.penci-active, .penci-slider ol.penci-control-nav li a:hover{ border-color: #f88c00; background-color: #f88c00; }
-    .woocommerce .woocommerce-message:before, .woocommerce form.checkout table.shop_table .order-total .amount, .woocommerce ul.products li.product .price ins, .woocommerce ul.products li.product .price, .woocommerce div.product p.price ins, .woocommerce div.product span.price ins, .woocommerce div.product p.price, .woocommerce div.product .entry-summary div[itemprop="description"] blockquote:before, .woocommerce div.product .woocommerce-tabs #tab-description blockquote:before, .woocommerce div.product .entry-summary div[itemprop="description"] blockquote cite, .woocommerce div.product .entry-summary div[itemprop="description"] blockquote .author, .woocommerce div.product .woocommerce-tabs #tab-description blockquote cite, .woocommerce div.product .woocommerce-tabs #tab-description blockquote .author, .woocommerce div.product .product_meta > span a:hover, .woocommerce div.product .woocommerce-tabs ul.tabs li.active, .woocommerce ul.cart_list li .amount, .woocommerce ul.product_list_widget li .amount, .woocommerce table.shop_table td.product-name a:hover, .woocommerce table.shop_table td.product-price span, .woocommerce table.shop_table td.product-subtotal span, .woocommerce-cart .cart-collaterals .cart_totals table td .amount, .woocommerce .woocommerce-info:before, .woocommerce div.product span.price { color: #f88c00; }
-    .headline-title { background-color: #f88c00; }
-    a.penci-topbar-post-title { color: #ffffff; }
-    a.penci-topbar-post-title:hover { color: #f88c00; }
-    .penci-topbar-social a:hover { color: #f88c00; }
-    #header .inner-header { background-color: #ffffff; background-image: none; }
-    #navigation .menu li a:hover, #navigation .menu li.current-menu-item > a, #navigation .menu > li.current_page_item > a, #navigation .menu li:hover > a, #navigation .menu > li.current-menu-ancestor > a, #navigation .menu > li.current-menu-item > a { color:  #f88c00; }
-    #navigation ul.menu > li > a:before, #navigation .menu > ul > li > a:before { background: #f88c00; }
-    #navigation .penci-megamenu .penci-mega-child-categories { background-color: #ffffff; }
-    #navigation .penci-megamenu .penci-mega-child-categories a.cat-active, #navigation .menu .penci-megamenu .penci-mega-child-categories a:hover, #navigation .menu .penci-megamenu .penci-mega-latest-posts .penci-mega-post a:hover { color: #f88c00; }
-    #navigation .penci-megamenu .penci-mega-thumbnail .mega-cat-name { background: #f88c00; }
-    #navigation .penci-megamenu .post-mega-title a { text-transform: none; letter-spacing: 0; }
-    #navigation .menu .sub-menu li a:hover, #navigation .menu .sub-menu li.current-menu-item > a { color:  #f88c00; }
-    #navigation ul.menu ul a:before, #navigation .menu ul ul a:before { background-color: #f88c00;   -webkit-box-shadow: 5px -2px 0 #f88c00;  -moz-box-shadow: 5px -2px 0 #f88c00;  -ms-box-shadow: 5px -2px 0 #f88c00;  box-shadow: 5px -2px 0 #f88c00; }
-    .penci-header-signup-form { padding: px 0; }
-    .header-social a:hover i {   color: #f88c00; }
-    #sidebar-nav .menu li a:hover, .header-social.sidebar-nav-social a:hover i, #sidebar-nav .menu li a .indicator:hover, #sidebar-nav .menu .sub-menu li a .indicator:hover{ color: #f88c00; }
-    #sidebar-nav-logo:before{ background-color: #f88c00; }
-    #penci-featured-video-bg { height: 500px; }
-    .featured-overlay-color, .penci-slider ul.slides li:after { opacity: 0; }
-    .featured-overlay-partent, .penci-slider ul.slides li:before { opacity: ; }
-    .mag2slider-overlay:after { opacity: ; }
-    .mag2-thumbnail:hover .mag2slider-overlay:after { opacity: ; }
-    .featured-carousel .feat-text .feat-time { background: #f88c00; }
-    .featured-carousel .feat-text .feat-time:before { border-right-color: #f88c00; }
-    .featured-carousel .feat-text .feat-time:after { border-left-color: #f88c00; }
-    .penci-mag2-carousel .cat > a.penci-cat-name, .featured-carousel .featured-cat a, .penci-magazine-slider .mag-cat a.penci-cat-name { color: #f88c00; }
-    .penci-mag2-carousel .cat > a.penci-cat-name:after, .featured-carousel .featured-cat a:after, .penci-magazine-slider .mag-cat a.penci-cat-name:after { border-color: #f88c00; }
-    .penci-mag2-carousel .cat > a.penci-cat-name:hover, .featured-carousel .featured-cat a:hover, .penci-magazine-slider .mag-cat a.penci-cat-name:hover { color: #f88c00; }
-    .penci-magazine-slider ul.mag-wrap li .mag-overlay { opacity: 0.7; }
-    .penci-magazine-slider ul.mag-wrap .mag-content:hover .mag-overlay { opacity: 0.9; }
-    .featured-area.loaded button.slick-prev:hover, .featured-area.loaded button.slick-next:hover, .penci-slider .penci-direction-nav .penci-prev:hover, .penci-slider .penci-direction-nav .penci-next:hover, .penci-magazine-slider .penci-direction-nav a:hover, .penci-magazine2-prev:hover, .penci-magazine2-next:hover { background: #f88c00; }
-    .featured-carousel .carousel-meta span a:hover, .featured-carousel.style-7 .carousel-meta span a:hover, .featured-carousel.style-7 .carousel-meta span.feat-author a:hover { color: #f88c00; }
-    .penci-slider .pencislider-container .pencislider-title{-webkit-animation-delay: 0.8s;-moz-animation-delay: 0.8s;-o-animation-delay: 0.8s;animation-delay: 0.8s;}
-    .penci-slider .pencislider-container .pencislider-caption {-webkit-animation-delay: 1s;-moz-animation-delay: 1s;-o-animation-delay: 1s;animation-delay: 1s;}
-    .penci-slider .pencislider-container .pencislider-content .penci-button {-webkit-animation-delay: 1.2s;-moz-animation-delay: 1.2s;-o-animation-delay: 1.2s;animation-delay: 1.2s;}
-    .featured-area .penci-slider { max-height: 600px; }
-    .penci-standard-cat .cat > a.penci-cat-name { color: #f88c00; }
-    .penci-standard-cat .cat:before, .penci-standard-cat .cat:after { background-color: #f88c00; }
-    .penci-standard-cat .cat > a.penci-cat-name:after { border-color: #f88c00 !important; }
-    .standard-content .penci-post-box-meta .penci-post-share-box a:hover, .standard-content .penci-post-box-meta .penci-post-share-box a.liked { color: #f88c00; }
-    .header-standard .post-entry a:hover, .header-standard .author-post span a:hover, .standard-content a, .standard-post-entry a.more-link:hover, .penci-post-box-meta .penci-box-meta a:hover, .standard-content .post-entry blockquote:before, .post-entry blockquote cite, .post-entry blockquote .author, .standard-content-special .author-quote span, .standard-content-special .format-post-box .post-format-icon i, .standard-content-special .format-post-box .dt-special a:hover, .standard-content .penci-more-link a.more-link { color: #f88c00; }
-    .standard-content-special .author-quote span:before, .standard-content-special .author-quote span:after, .standard-content .post-entry ul li:before, .post-entry blockquote .author span:after, .header-standard:after { background-color: #f88c00; }
-    .penci-more-link a.more-link:before, .penci-more-link a.more-link:after { border-color: #f88c00; }
-    .penci-grid .cat a.penci-cat-name, .penci-masonry .cat a.penci-cat-name { color: #f88c00; }
-    .penci-grid .cat a.penci-cat-name:after, .penci-masonry .cat a.penci-cat-name:after { border-color: #f88c00; }
-    .penci-post-share-box a.liked, .penci-post-share-box a:hover { color: #f88c00; }
-    .overlay-post-box-meta .overlay-share a:hover, .overlay-author a:hover, .penci-grid .standard-content-special .format-post-box .dt-special a:hover, .grid-post-box-meta span a:hover, .grid-post-box-meta span a.comment-link:hover, .penci-grid .standard-content-special .author-quote span, .penci-grid .standard-content-special .format-post-box .post-format-icon i, .grid-mixed .penci-post-box-meta .penci-box-meta a:hover { color: #f88c00; }
-    .penci-grid .standard-content-special .author-quote span:before, .penci-grid .standard-content-special .author-quote span:after, .grid-header-box:after, .list-post .header-list-style:after { background-color: #f88c00; }
-    .penci-grid .post-box-meta span:after, .penci-masonry .post-box-meta span:after { border-color: #f88c00; }
-    .penci-grid li.typography-style .overlay-typography { opacity: ; }
-    .penci-grid li.typography-style:hover .overlay-typography { opacity: ; }
-    .penci-grid li.typography-style .item .main-typography h2 a:hover { color: #f88c00; }
-    .penci-grid li.typography-style .grid-post-box-meta span a:hover { color: #f88c00; }
-    #sidebar .penci-border-arrow .inner-arrow { background-color: #313131; }
-    #sidebar .penci-border-arrow .inner-arrow { border-color: #313131; }
-    #sidebar .penci-border-arrow:before { border-top-color: #313131; }
-    #sidebar .penci-border-arrow:after { border-color: #818181; }
-    #sidebar .penci-border-arrow .inner-arrow { color: #ffffff; }
-    #sidebar .penci-border-arrow:after { content: none; display: none; }
-    #sidebar .widget-title{ margin-left: 0; margin-right: 0; margin-top: 0; }
-    #sidebar .penci-border-arrow:before{ bottom: -6px; border-width: 6px; margin-left: -6px; }
-    .widget ul.side-newsfeed li .side-item .side-item-text h4 a:hover, .widget a:hover, #sidebar .widget-social a:hover span, .widget-social a:hover span, .penci-tweets-widget-content .icon-tweets, .penci-tweets-widget-content .tweet-intents a, .penci-tweets-widget-content .tweet-intents span:after { color: #f88c00; }
-    .widget .tagcloud a:hover, .widget-social a:hover i, .widget input[type="submit"]:hover { color: #fff; background-color: #f88c00; border-color: #f88c00; }
-    .about-widget .about-me-heading:before { border-color: #f88c00; }
-    .penci-tweets-widget-content .tweet-intents-inner:before, .penci-tweets-widget-content .tweet-intents-inner:after { background-color: #f88c00; }
-    .penci-slider.penci-tweets-slider ol.penci-control-nav li a.penci-active, .penci-slider.penci-tweets-slider ol.penci-control-nav li a:hover { border-color: #f88c00; background-color: #f88c00; }
-    #widget-area { background: #313131; }
-    .footer-widget-wrapper, .footer-widget-wrapper .widget.widget_categories ul li, .footer-widget-wrapper .widget.widget_archive ul li { color: #999999; }
-    .footer-widget-wrapper .widget ul li { border-color: #414141; }
-    .footer-widget-wrapper .widget .widget-title { color: #ffffff; }
-    .footer-widget-wrapper .widget .widget-title .inner-arrow { border-color: #616161; }
-    .footer-widget-wrapper .widget .widget-title:after { border-color: #616161; }
-    .footer-widget-wrapper a, .footer-widget-wrapper .widget ul.side-newsfeed li .side-item .side-item-text h4 a, .footer-widget-wrapper .widget a, .footer-widget-wrapper .widget-social a i, .footer-widget-wrapper .widget-social a span { color: #999999; }
-    .footer-widget-wrapper .widget-social a:hover i{ color: #fff; }
-    .footer-widget-wrapper .penci-tweets-widget-content .icon-tweets, .footer-widget-wrapper .penci-tweets-widget-content .tweet-intents a, .footer-widget-wrapper .penci-tweets-widget-content .tweet-intents span:after, .footer-widget-wrapper .widget ul.side-newsfeed li .side-item .side-item-text h4 a:hover, .footer-widget-wrapper .widget a:hover, .footer-widget-wrapper .widget-social a:hover span, .footer-widget-wrapper a:hover { color: #f88c00; }
-    .footer-widget-wrapper .widget .tagcloud a:hover, .footer-widget-wrapper .widget-social a:hover i, .footer-widget-wrapper .mc4wp-form input[type="submit"]:hover, .footer-widget-wrapper .widget input[type="submit"]:hover { color: #fff; background-color: #f88c00; border-color: #f88c00; }
-    .footer-widget-wrapper .about-widget .about-me-heading:before { border-color: #f88c00; }
-    .footer-widget-wrapper .penci-tweets-widget-content .tweet-intents-inner:before, .footer-widget-wrapper .penci-tweets-widget-content .tweet-intents-inner:after { background-color: #f88c00; }
-    .footer-widget-wrapper .penci-slider.penci-tweets-slider ol.penci-control-nav li a.penci-active, .footer-widget-wrapper .penci-slider.penci-tweets-slider ol.penci-control-nav li a:hover {  border-color: #f88c00;  background: #f88c00;  }
-    ul.footer-socials li a:hover i { background-color: #f88c00; border-color: #f88c00; }
-    ul.footer-socials li a:hover span { color: #f88c00; }
-    #footer-section, .footer-instagram { background-color: #414141; }
-    #footer-section a { color: #f88c00; }
-    .container-single .penci-standard-cat .cat > a.penci-cat-name { color: #f88c00; }
-    .container-single .penci-standard-cat .cat:before, .container-single .penci-standard-cat .cat:after { background-color: #f88c00; }
-    .container-single .penci-standard-cat .cat > a.penci-cat-name:after { border-color: #f88c00 !important; }
-    .container-single .single-post-title { text-transform: none; letter-spacing: 1px; }
-    .container-single .post-pagination h5 { text-transform: none; letter-spacing: 0; }
-    .container-single .item-related h3 a { text-transform: none; letter-spacing: 0; }
-    .container-single .post-share a:hover, .container-single .post-share a.liked, .page-share .post-share a:hover { color: #f88c00; }
-    .post-share .count-number-like { color: #f88c00; }
-    .comment-content a, .container-single .post-entry a, .container-single .format-post-box .dt-special a:hover, .container-single .author-quote span, .container-single .author-post span a:hover, .post-entry blockquote:before, .post-entry blockquote cite, .post-entry blockquote .author, .post-pagination a:hover, .author-content h5 a:hover, .author-content .author-social:hover, .item-related h3 a:hover, .container-single .format-post-box .post-format-icon i, .container.penci-breadcrumb.single-breadcrumb span a:hover { color: #f88c00; }
-    .container-single .standard-content-special .format-post-box, ul.slick-dots li button:hover, ul.slick-dots li.slick-active button { border-color: #f88c00; }
-    ul.slick-dots li button:hover, ul.slick-dots li.slick-active button, #respond h3.comment-reply-title span:before, #respond h3.comment-reply-title span:after, .post-box-title:before, .post-box-title:after, .container-single .author-quote span:before, .container-single .author-quote span:after, .post-entry blockquote .author span:after, .post-entry blockquote .author span:before, .post-entry ul li:before, #respond #submit:hover, .wpcf7 input[type="submit"]:hover, .widget_wysija input[type="submit"]:hover { background: #f88c00; }
-    .container-single .post-entry .post-tags a:hover { color: #fff; border-color: #f88c00; background-color: #f88c00; }
-    ul.homepage-featured-boxes .penci-fea-in:hover h4 span { color: #f88c00; }
-    .penci-homepage-title .inner-arrow{ background-color: #313131; }
-    .penci-border-arrow.penci-homepage-title .inner-arrow { border-color: #313131; }
-    .penci-border-arrow.penci-homepage-title:before { border-top-color: #313131; }
-    .penci-border-arrow.penci-homepage-title:after { border-color: #818181; }
-    .penci-homepage-title .inner-arrow, .penci-homepage-title.penci-magazine-title .inner-arrow a { color: #ffffff; }
-    .penci-homepage-title:after { content: none; display: none; }
-    .penci-homepage-title { margin-left: 0; margin-right: 0; margin-top: 0; }
-    .penci-homepage-title:before { bottom: -6px; border-width: 6px; margin-left: -6px; }
-    .penci-homepage-title.penci-magazine-title:before{ left: 25px; }
-    .home-featured-cat-content .magcat-detail h3 a:hover { color: #f88c00; }
-    .home-featured-cat-content .grid-post-box-meta span a:hover { color: #f88c00; }
-    .home-featured-cat-content .first-post .magcat-detail .mag-header:after { background: #f88c00; }
-    .penci-slider ol.penci-control-nav li a.penci-active, .penci-slider ol.penci-control-nav li a:hover { border-color: #f88c00; background: #f88c00; }
-    .home-featured-cat-content .mag-photo .mag-overlay-photo { opacity: ; }
-    .home-featured-cat-content .mag-photo:hover .mag-overlay-photo { opacity: ; }
-    .inner-item-portfolio:hover .penci-portfolio-thumbnail a:after { opacity: ; }
-    .footer-widget-wrapper .widget-social a i { border-color: #414141; }
-    .footer-widget-wrapper .widget .widget-title{text-align: center;}		    </style>
-<!-- Facebook Pixel Code -->
-<script>
-    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-            n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-        n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-            document,'script','//connect.facebook.net/en_US/fbevents.js');
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Soledad</title>
+    <!--[if lt IE 9]>
+    <script src="<?php get_template_directory_uri()?>js/html5.js"></script>
+    <style type="text/css">
+        .featured-carousel .item { opacity: 1; }
+    </style>
+    <![endif]-->
 
-    fbq('init', '128428724165439');
-    fbq('track', "PageView");</script>
-<noscript><img height="1" width="1" style="display:none"
-               src="https://www.facebook.com/tr?id=128428724165439&ev=PageView&noscript=1"
-        /></noscript>
-<!-- End Facebook Pixel Code -->
-<meta name="google-site-verification" content="MBEGHl0ZhYDNI-EUtHKZl14TZpj7xZz-G4bvtHoMqoY" />
-</head>
-
+    <?php wp_head()?>
+    </head>
 <body class="home blog penci-body-boxed">
 <a id="close-sidebar-nav" class="header-3"><i class="fa fa-close"></i></a>
 
@@ -342,84 +128,84 @@
 <li id="menu-item-329" class="menu-item menu-item-type-taxonomy menu-item-object-category penci-mega-menu menu-item-329"><a href="http://pencidesign.com/soledad/soledad-magazine/category/technology/">Technology</a>
     <ul class="sub-menu">
         <li id="menu-item-0" class="menu-item-0"><div class="penci-megamenu">
-            <div class="penci-content-megamenu">
-                <div class="penci-mega-latest-posts col-mn-5">
-                    <div class="penci-mega-row penci-mega-6 row-active">
-                        <div class="penci-mega-post">
-                            <div class="penci-mega-thumbnail">
+                <div class="penci-content-megamenu">
+                    <div class="penci-mega-latest-posts col-mn-5">
+                        <div class="penci-mega-row penci-mega-6 row-active">
+                            <div class="penci-mega-post">
+                                <div class="penci-mega-thumbnail">
 																<span class="mega-cat-name">
 																			Technology																	</span>
-                                <a href="http://pencidesign.com/soledad/soledad-magazine/apple-haptic-tech-is-a-peak-at-the-ui-of-the-future/" title="Apple’s Haptic Tech Is a peak at the UI of the Future">
-                                    <img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mac-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="mac" />								</a>
+                                    <a href="http://pencidesign.com/soledad/soledad-magazine/apple-haptic-tech-is-a-peak-at-the-ui-of-the-future/" title="Apple’s Haptic Tech Is a peak at the UI of the Future">
+                                        <img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mac-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="mac" />								</a>
+                                </div>
+                                <div class="penci-mega-meta">
+                                    <h3 class="post-mega-title">
+                                        <a href="http://pencidesign.com/soledad/soledad-magazine/apple-haptic-tech-is-a-peak-at-the-ui-of-the-future/">Apple’s Haptic Tech Is a peak at the UI of the Future</a>
+                                    </h3>
+                                    <p class="penci-mega-date">September 7, 2015</p>
+                                </div>
                             </div>
-                            <div class="penci-mega-meta">
-                                <h3 class="post-mega-title">
-                                    <a href="http://pencidesign.com/soledad/soledad-magazine/apple-haptic-tech-is-a-peak-at-the-ui-of-the-future/">Apple’s Haptic Tech Is a peak at the UI of the Future</a>
-                                </h3>
-                                <p class="penci-mega-date">September 7, 2015</p>
-                            </div>
-                        </div>
-                        <div class="penci-mega-post">
-                            <div class="penci-mega-thumbnail">
+                            <div class="penci-mega-post">
+                                <div class="penci-mega-thumbnail">
 																<span class="mega-cat-name">
 																			Technology																	</span>
-                                <a href="http://pencidesign.com/soledad/soledad-magazine/furniture-makes-this-office-look-like-a-toy-box/" title="Furniture Makes This Office Look Like a Toy Box">
-                                    <img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cab-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="cab" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cab-1024x681.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cab-1170x778.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cab-585x389.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" />								</a>
+                                    <a href="http://pencidesign.com/soledad/soledad-magazine/furniture-makes-this-office-look-like-a-toy-box/" title="Furniture Makes This Office Look Like a Toy Box">
+                                        <img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cab-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="cab" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cab-1024x681.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cab-1170x778.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cab-585x389.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" />								</a>
+                                </div>
+                                <div class="penci-mega-meta">
+                                    <h3 class="post-mega-title">
+                                        <a href="http://pencidesign.com/soledad/soledad-magazine/furniture-makes-this-office-look-like-a-toy-box/">Furniture Makes This Office Look Like a Toy Box</a>
+                                    </h3>
+                                    <p class="penci-mega-date">September 7, 2015</p>
+                                </div>
                             </div>
-                            <div class="penci-mega-meta">
-                                <h3 class="post-mega-title">
-                                    <a href="http://pencidesign.com/soledad/soledad-magazine/furniture-makes-this-office-look-like-a-toy-box/">Furniture Makes This Office Look Like a Toy Box</a>
-                                </h3>
-                                <p class="penci-mega-date">September 7, 2015</p>
-                            </div>
-                        </div>
-                        <div class="penci-mega-post">
-                            <div class="penci-mega-thumbnail">
+                            <div class="penci-mega-post">
+                                <div class="penci-mega-thumbnail">
 																<span class="mega-cat-name">
 																			Technology																	</span>
-                                <a href="http://pencidesign.com/soledad/soledad-magazine/apple-watch-vs-moto-360-which-one-should-you-buy-video/" title="Apple Watch vs Moto 360: Which one should you buy?">
-                                    <img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/smart-watch-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="This is an image caption" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/smart-watch-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/smart-watch-1024x683.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/smart-watch-1170x780.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/smart-watch-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" />								</a>
+                                    <a href="http://pencidesign.com/soledad/soledad-magazine/apple-watch-vs-moto-360-which-one-should-you-buy-video/" title="Apple Watch vs Moto 360: Which one should you buy?">
+                                        <img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/smart-watch-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="This is an image caption" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/smart-watch-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/smart-watch-1024x683.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/smart-watch-1170x780.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/smart-watch-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" />								</a>
+                                </div>
+                                <div class="penci-mega-meta">
+                                    <h3 class="post-mega-title">
+                                        <a href="http://pencidesign.com/soledad/soledad-magazine/apple-watch-vs-moto-360-which-one-should-you-buy-video/">Apple Watch vs Moto 360: Which one should you buy?</a>
+                                    </h3>
+                                    <p class="penci-mega-date">September 7, 2015</p>
+                                </div>
                             </div>
-                            <div class="penci-mega-meta">
-                                <h3 class="post-mega-title">
-                                    <a href="http://pencidesign.com/soledad/soledad-magazine/apple-watch-vs-moto-360-which-one-should-you-buy-video/">Apple Watch vs Moto 360: Which one should you buy?</a>
-                                </h3>
-                                <p class="penci-mega-date">September 7, 2015</p>
-                            </div>
-                        </div>
-                        <div class="penci-mega-post">
-                            <div class="penci-mega-thumbnail">
+                            <div class="penci-mega-post">
+                                <div class="penci-mega-thumbnail">
 																<span class="mega-cat-name">
 																			Technology																	</span>
-                                <a href="http://pencidesign.com/soledad/soledad-magazine/android-is-finally-getting-a-standalone-street-view-app/" title="Android is Finally Getting a Standalone Street View App">
-                                    <img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/phone-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="phone" />								</a>
+                                    <a href="http://pencidesign.com/soledad/soledad-magazine/android-is-finally-getting-a-standalone-street-view-app/" title="Android is Finally Getting a Standalone Street View App">
+                                        <img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/phone-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="phone" />								</a>
+                                </div>
+                                <div class="penci-mega-meta">
+                                    <h3 class="post-mega-title">
+                                        <a href="http://pencidesign.com/soledad/soledad-magazine/android-is-finally-getting-a-standalone-street-view-app/">Android is Finally Getting a Standalone Street View App</a>
+                                    </h3>
+                                    <p class="penci-mega-date">September 7, 2015</p>
+                                </div>
                             </div>
-                            <div class="penci-mega-meta">
-                                <h3 class="post-mega-title">
-                                    <a href="http://pencidesign.com/soledad/soledad-magazine/android-is-finally-getting-a-standalone-street-view-app/">Android is Finally Getting a Standalone Street View App</a>
-                                </h3>
-                                <p class="penci-mega-date">September 7, 2015</p>
-                            </div>
-                        </div>
-                        <div class="penci-mega-post">
-                            <div class="penci-mega-thumbnail">
+                            <div class="penci-mega-post">
+                                <div class="penci-mega-thumbnail">
 																<span class="mega-cat-name">
 																			Technology																	</span>
-                                <a href="http://pencidesign.com/soledad/soledad-magazine/iphone-6s-launch-and-expectations/" title="iPhone 6S Launch: What To Expect?">
-                                    <img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/iphone-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="iphone" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/iphone-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/iphone-1024x683.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/iphone-1170x780.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/iphone-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" />								</a>
-                            </div>
-                            <div class="penci-mega-meta">
-                                <h3 class="post-mega-title">
-                                    <a href="http://pencidesign.com/soledad/soledad-magazine/iphone-6s-launch-and-expectations/">iPhone 6S Launch: What To Expect?</a>
-                                </h3>
-                                <p class="penci-mega-date">September 7, 2015</p>
+                                    <a href="http://pencidesign.com/soledad/soledad-magazine/iphone-6s-launch-and-expectations/" title="iPhone 6S Launch: What To Expect?">
+                                        <img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/iphone-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="iphone" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/iphone-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/iphone-1024x683.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/iphone-1170x780.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/iphone-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" />								</a>
+                                </div>
+                                <div class="penci-mega-meta">
+                                    <h3 class="post-mega-title">
+                                        <a href="http://pencidesign.com/soledad/soledad-magazine/iphone-6s-launch-and-expectations/">iPhone 6S Launch: What To Expect?</a>
+                                    </h3>
+                                    <p class="penci-mega-date">September 7, 2015</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-        </div></li>
+            </div></li>
     </ul>
 </li>
 <li id="menu-item-330" class="menu-item menu-item-type-taxonomy menu-item-object-category penci-mega-menu menu-item-330"><a href="http://pencidesign.com/soledad/soledad-magazine/category/entertainment/">Entertainment</a>
@@ -674,84 +460,84 @@
 <li id="menu-item-377" class="menu-item menu-item-type-taxonomy menu-item-object-category penci-mega-menu menu-item-377"><a href="http://pencidesign.com/soledad/soledad-magazine/category/entertainment/sport/">Sport</a>
     <ul class="sub-menu">
         <li class="menu-item-0"><div class="penci-megamenu">
-            <div class="penci-content-megamenu">
-                <div class="penci-mega-latest-posts col-mn-5">
-                    <div class="penci-mega-row penci-mega-10 row-active">
-                        <div class="penci-mega-post">
-                            <div class="penci-mega-thumbnail">
+                <div class="penci-content-megamenu">
+                    <div class="penci-mega-latest-posts col-mn-5">
+                        <div class="penci-mega-row penci-mega-10 row-active">
+                            <div class="penci-mega-post">
+                                <div class="penci-mega-thumbnail">
 																<span class="mega-cat-name">
 																			Sport																	</span>
-                                <a href="http://pencidesign.com/soledad/soledad-magazine/canadian-rockies-rafting-near-banff-national-park/" title="Canadian Rockies Rafting near Banff National Park">
-                                    <img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="rafting-883523" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-1024x682.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-1170x780.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" />								</a>
+                                    <a href="http://pencidesign.com/soledad/soledad-magazine/canadian-rockies-rafting-near-banff-national-park/" title="Canadian Rockies Rafting near Banff National Park">
+                                        <img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="rafting-883523" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-1024x682.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-1170x780.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" />								</a>
+                                </div>
+                                <div class="penci-mega-meta">
+                                    <h3 class="post-mega-title">
+                                        <a href="http://pencidesign.com/soledad/soledad-magazine/canadian-rockies-rafting-near-banff-national-park/">Canadian Rockies Rafting near Banff National Park</a>
+                                    </h3>
+                                    <p class="penci-mega-date">September 7, 2015</p>
+                                </div>
                             </div>
-                            <div class="penci-mega-meta">
-                                <h3 class="post-mega-title">
-                                    <a href="http://pencidesign.com/soledad/soledad-magazine/canadian-rockies-rafting-near-banff-national-park/">Canadian Rockies Rafting near Banff National Park</a>
-                                </h3>
-                                <p class="penci-mega-date">September 7, 2015</p>
-                            </div>
-                        </div>
-                        <div class="penci-mega-post">
-                            <div class="penci-mega-thumbnail">
+                            <div class="penci-mega-post">
+                                <div class="penci-mega-thumbnail">
 																<span class="mega-cat-name">
 																			Sport																	</span>
-                                <a href="http://pencidesign.com/soledad/soledad-magazine/5-places-to-visit-in-your-lifetime/" title="5 Places to visit in your Lifetime">
-                                    <img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="mountains" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains-1024x683.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" />								</a>
+                                    <a href="http://pencidesign.com/soledad/soledad-magazine/5-places-to-visit-in-your-lifetime/" title="5 Places to visit in your Lifetime">
+                                        <img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="mountains" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains-1024x683.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" />								</a>
+                                </div>
+                                <div class="penci-mega-meta">
+                                    <h3 class="post-mega-title">
+                                        <a href="http://pencidesign.com/soledad/soledad-magazine/5-places-to-visit-in-your-lifetime/">5 Places to visit in your Lifetime</a>
+                                    </h3>
+                                    <p class="penci-mega-date">September 7, 2015</p>
+                                </div>
                             </div>
-                            <div class="penci-mega-meta">
-                                <h3 class="post-mega-title">
-                                    <a href="http://pencidesign.com/soledad/soledad-magazine/5-places-to-visit-in-your-lifetime/">5 Places to visit in your Lifetime</a>
-                                </h3>
-                                <p class="penci-mega-date">September 7, 2015</p>
-                            </div>
-                        </div>
-                        <div class="penci-mega-post">
-                            <div class="penci-mega-thumbnail">
+                            <div class="penci-mega-post">
+                                <div class="penci-mega-thumbnail">
 																<span class="mega-cat-name">
 																			Sport																	</span>
-                                <a href="http://pencidesign.com/soledad/soledad-magazine/baseball-ja-happ-marcus-stroman-jayson-werth-matt-harvey/" title="Matt Harvey owners can look to J.A. Happ, Marcus Stroman">
-                                    <img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/baseball-player-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="baseball-player" />								</a>
+                                    <a href="http://pencidesign.com/soledad/soledad-magazine/baseball-ja-happ-marcus-stroman-jayson-werth-matt-harvey/" title="Matt Harvey owners can look to J.A. Happ, Marcus Stroman">
+                                        <img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/baseball-player-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="baseball-player" />								</a>
+                                </div>
+                                <div class="penci-mega-meta">
+                                    <h3 class="post-mega-title">
+                                        <a href="http://pencidesign.com/soledad/soledad-magazine/baseball-ja-happ-marcus-stroman-jayson-werth-matt-harvey/">Matt Harvey owners can look to J.A. Happ, Marcus Stroman</a>
+                                    </h3>
+                                    <p class="penci-mega-date">September 7, 2015</p>
+                                </div>
                             </div>
-                            <div class="penci-mega-meta">
-                                <h3 class="post-mega-title">
-                                    <a href="http://pencidesign.com/soledad/soledad-magazine/baseball-ja-happ-marcus-stroman-jayson-werth-matt-harvey/">Matt Harvey owners can look to J.A. Happ, Marcus Stroman</a>
-                                </h3>
-                                <p class="penci-mega-date">September 7, 2015</p>
-                            </div>
-                        </div>
-                        <div class="penci-mega-post">
-                            <div class="penci-mega-thumbnail">
+                            <div class="penci-mega-post">
+                                <div class="penci-mega-thumbnail">
 																<span class="mega-cat-name">
 																			Sport																	</span>
-                                <a href="http://pencidesign.com/soledad/soledad-magazine/mcns-adam-child-to-line-up-on-norton-machinery-at-gold-cup/" title="MCN’s Adam Child to line up on Norton machinery at Gold Cup">
-                                    <img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/biker-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="biker" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/biker-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/biker-1024x683.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/biker.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/biker-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" />								</a>
+                                    <a href="http://pencidesign.com/soledad/soledad-magazine/mcns-adam-child-to-line-up-on-norton-machinery-at-gold-cup/" title="MCN’s Adam Child to line up on Norton machinery at Gold Cup">
+                                        <img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/biker-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="biker" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/biker-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/biker-1024x683.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/biker.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/biker-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" />								</a>
+                                </div>
+                                <div class="penci-mega-meta">
+                                    <h3 class="post-mega-title">
+                                        <a href="http://pencidesign.com/soledad/soledad-magazine/mcns-adam-child-to-line-up-on-norton-machinery-at-gold-cup/">MCN’s Adam Child to line up on Norton machinery at Gold Cup</a>
+                                    </h3>
+                                    <p class="penci-mega-date">September 7, 2015</p>
+                                </div>
                             </div>
-                            <div class="penci-mega-meta">
-                                <h3 class="post-mega-title">
-                                    <a href="http://pencidesign.com/soledad/soledad-magazine/mcns-adam-child-to-line-up-on-norton-machinery-at-gold-cup/">MCN’s Adam Child to line up on Norton machinery at Gold Cup</a>
-                                </h3>
-                                <p class="penci-mega-date">September 7, 2015</p>
-                            </div>
-                        </div>
-                        <div class="penci-mega-post">
-                            <div class="penci-mega-thumbnail">
+                            <div class="penci-mega-post">
+                                <div class="penci-mega-thumbnail">
 																<span class="mega-cat-name">
 																			Sport																	</span>
-                                <a href="http://pencidesign.com/soledad/soledad-magazine/surfboards-mega-swell-light-latest-nz-surfing-magazine/" title="Surfboards &amp; Mega Swell light up latest NZ Surfing Magazine">
-                                    <img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/water-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="water" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/water-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/water-1024x683.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/water.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/water-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" />								</a>
-                            </div>
-                            <div class="penci-mega-meta">
-                                <h3 class="post-mega-title">
-                                    <a href="http://pencidesign.com/soledad/soledad-magazine/surfboards-mega-swell-light-latest-nz-surfing-magazine/">Surfboards &amp; Mega Swell light up latest NZ Surfing Magazine</a>
-                                </h3>
-                                <p class="penci-mega-date">September 7, 2015</p>
+                                    <a href="http://pencidesign.com/soledad/soledad-magazine/surfboards-mega-swell-light-latest-nz-surfing-magazine/" title="Surfboards &amp; Mega Swell light up latest NZ Surfing Magazine">
+                                        <img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/water-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="water" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/water-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/water-1024x683.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/water.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/water-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" />								</a>
+                                </div>
+                                <div class="penci-mega-meta">
+                                    <h3 class="post-mega-title">
+                                        <a href="http://pencidesign.com/soledad/soledad-magazine/surfboards-mega-swell-light-latest-nz-surfing-magazine/">Surfboards &amp; Mega Swell light up latest NZ Surfing Magazine</a>
+                                    </h3>
+                                    <p class="penci-mega-date">September 7, 2015</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-        </div></li>
+            </div></li>
     </ul>
 </li>
 <li id="menu-item-624" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-624"><a href="#">Portfolio</a>
@@ -959,84 +745,84 @@
 <li class="menu-item menu-item-type-taxonomy menu-item-object-category penci-mega-menu menu-item-329"><a href="http://pencidesign.com/soledad/soledad-magazine/category/technology/">Technology</a>
     <ul class="sub-menu">
         <li class="menu-item-0"><div class="penci-megamenu">
-            <div class="penci-content-megamenu">
-                <div class="penci-mega-latest-posts col-mn-5">
-                    <div class="penci-mega-row penci-mega-6 row-active">
-                        <div class="penci-mega-post">
-                            <div class="penci-mega-thumbnail">
+                <div class="penci-content-megamenu">
+                    <div class="penci-mega-latest-posts col-mn-5">
+                        <div class="penci-mega-row penci-mega-6 row-active">
+                            <div class="penci-mega-post">
+                                <div class="penci-mega-thumbnail">
 																<span class="mega-cat-name">
 																			Technology																	</span>
-                                <a href="http://pencidesign.com/soledad/soledad-magazine/apple-haptic-tech-is-a-peak-at-the-ui-of-the-future/" title="Apple’s Haptic Tech Is a peak at the UI of the Future">
-                                    <img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mac-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="mac" />								</a>
+                                    <a href="http://pencidesign.com/soledad/soledad-magazine/apple-haptic-tech-is-a-peak-at-the-ui-of-the-future/" title="Apple’s Haptic Tech Is a peak at the UI of the Future">
+                                        <img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mac-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="mac" />								</a>
+                                </div>
+                                <div class="penci-mega-meta">
+                                    <h3 class="post-mega-title">
+                                        <a href="http://pencidesign.com/soledad/soledad-magazine/apple-haptic-tech-is-a-peak-at-the-ui-of-the-future/">Apple’s Haptic Tech Is a peak at the UI of the Future</a>
+                                    </h3>
+                                    <p class="penci-mega-date">September 7, 2015</p>
+                                </div>
                             </div>
-                            <div class="penci-mega-meta">
-                                <h3 class="post-mega-title">
-                                    <a href="http://pencidesign.com/soledad/soledad-magazine/apple-haptic-tech-is-a-peak-at-the-ui-of-the-future/">Apple’s Haptic Tech Is a peak at the UI of the Future</a>
-                                </h3>
-                                <p class="penci-mega-date">September 7, 2015</p>
-                            </div>
-                        </div>
-                        <div class="penci-mega-post">
-                            <div class="penci-mega-thumbnail">
+                            <div class="penci-mega-post">
+                                <div class="penci-mega-thumbnail">
 																<span class="mega-cat-name">
 																			Technology																	</span>
-                                <a href="http://pencidesign.com/soledad/soledad-magazine/furniture-makes-this-office-look-like-a-toy-box/" title="Furniture Makes This Office Look Like a Toy Box">
-                                    <img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cab-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="cab" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cab-1024x681.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cab-1170x778.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cab-585x389.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" />								</a>
+                                    <a href="http://pencidesign.com/soledad/soledad-magazine/furniture-makes-this-office-look-like-a-toy-box/" title="Furniture Makes This Office Look Like a Toy Box">
+                                        <img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cab-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="cab" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cab-1024x681.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cab-1170x778.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cab-585x389.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" />								</a>
+                                </div>
+                                <div class="penci-mega-meta">
+                                    <h3 class="post-mega-title">
+                                        <a href="http://pencidesign.com/soledad/soledad-magazine/furniture-makes-this-office-look-like-a-toy-box/">Furniture Makes This Office Look Like a Toy Box</a>
+                                    </h3>
+                                    <p class="penci-mega-date">September 7, 2015</p>
+                                </div>
                             </div>
-                            <div class="penci-mega-meta">
-                                <h3 class="post-mega-title">
-                                    <a href="http://pencidesign.com/soledad/soledad-magazine/furniture-makes-this-office-look-like-a-toy-box/">Furniture Makes This Office Look Like a Toy Box</a>
-                                </h3>
-                                <p class="penci-mega-date">September 7, 2015</p>
-                            </div>
-                        </div>
-                        <div class="penci-mega-post">
-                            <div class="penci-mega-thumbnail">
+                            <div class="penci-mega-post">
+                                <div class="penci-mega-thumbnail">
 																<span class="mega-cat-name">
 																			Technology																	</span>
-                                <a href="http://pencidesign.com/soledad/soledad-magazine/apple-watch-vs-moto-360-which-one-should-you-buy-video/" title="Apple Watch vs Moto 360: Which one should you buy?">
-                                    <img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/smart-watch-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="This is an image caption" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/smart-watch-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/smart-watch-1024x683.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/smart-watch-1170x780.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/smart-watch-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" />								</a>
+                                    <a href="http://pencidesign.com/soledad/soledad-magazine/apple-watch-vs-moto-360-which-one-should-you-buy-video/" title="Apple Watch vs Moto 360: Which one should you buy?">
+                                        <img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/smart-watch-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="This is an image caption" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/smart-watch-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/smart-watch-1024x683.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/smart-watch-1170x780.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/smart-watch-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" />								</a>
+                                </div>
+                                <div class="penci-mega-meta">
+                                    <h3 class="post-mega-title">
+                                        <a href="http://pencidesign.com/soledad/soledad-magazine/apple-watch-vs-moto-360-which-one-should-you-buy-video/">Apple Watch vs Moto 360: Which one should you buy?</a>
+                                    </h3>
+                                    <p class="penci-mega-date">September 7, 2015</p>
+                                </div>
                             </div>
-                            <div class="penci-mega-meta">
-                                <h3 class="post-mega-title">
-                                    <a href="http://pencidesign.com/soledad/soledad-magazine/apple-watch-vs-moto-360-which-one-should-you-buy-video/">Apple Watch vs Moto 360: Which one should you buy?</a>
-                                </h3>
-                                <p class="penci-mega-date">September 7, 2015</p>
-                            </div>
-                        </div>
-                        <div class="penci-mega-post">
-                            <div class="penci-mega-thumbnail">
+                            <div class="penci-mega-post">
+                                <div class="penci-mega-thumbnail">
 																<span class="mega-cat-name">
 																			Technology																	</span>
-                                <a href="http://pencidesign.com/soledad/soledad-magazine/android-is-finally-getting-a-standalone-street-view-app/" title="Android is Finally Getting a Standalone Street View App">
-                                    <img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/phone-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="phone" />								</a>
+                                    <a href="http://pencidesign.com/soledad/soledad-magazine/android-is-finally-getting-a-standalone-street-view-app/" title="Android is Finally Getting a Standalone Street View App">
+                                        <img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/phone-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="phone" />								</a>
+                                </div>
+                                <div class="penci-mega-meta">
+                                    <h3 class="post-mega-title">
+                                        <a href="http://pencidesign.com/soledad/soledad-magazine/android-is-finally-getting-a-standalone-street-view-app/">Android is Finally Getting a Standalone Street View App</a>
+                                    </h3>
+                                    <p class="penci-mega-date">September 7, 2015</p>
+                                </div>
                             </div>
-                            <div class="penci-mega-meta">
-                                <h3 class="post-mega-title">
-                                    <a href="http://pencidesign.com/soledad/soledad-magazine/android-is-finally-getting-a-standalone-street-view-app/">Android is Finally Getting a Standalone Street View App</a>
-                                </h3>
-                                <p class="penci-mega-date">September 7, 2015</p>
-                            </div>
-                        </div>
-                        <div class="penci-mega-post">
-                            <div class="penci-mega-thumbnail">
+                            <div class="penci-mega-post">
+                                <div class="penci-mega-thumbnail">
 																<span class="mega-cat-name">
 																			Technology																	</span>
-                                <a href="http://pencidesign.com/soledad/soledad-magazine/iphone-6s-launch-and-expectations/" title="iPhone 6S Launch: What To Expect?">
-                                    <img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/iphone-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="iphone" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/iphone-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/iphone-1024x683.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/iphone-1170x780.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/iphone-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" />								</a>
-                            </div>
-                            <div class="penci-mega-meta">
-                                <h3 class="post-mega-title">
-                                    <a href="http://pencidesign.com/soledad/soledad-magazine/iphone-6s-launch-and-expectations/">iPhone 6S Launch: What To Expect?</a>
-                                </h3>
-                                <p class="penci-mega-date">September 7, 2015</p>
+                                    <a href="http://pencidesign.com/soledad/soledad-magazine/iphone-6s-launch-and-expectations/" title="iPhone 6S Launch: What To Expect?">
+                                        <img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/iphone-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="iphone" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/iphone-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/iphone-1024x683.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/iphone-1170x780.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/iphone-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" />								</a>
+                                </div>
+                                <div class="penci-mega-meta">
+                                    <h3 class="post-mega-title">
+                                        <a href="http://pencidesign.com/soledad/soledad-magazine/iphone-6s-launch-and-expectations/">iPhone 6S Launch: What To Expect?</a>
+                                    </h3>
+                                    <p class="penci-mega-date">September 7, 2015</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-        </div></li>
+            </div></li>
     </ul>
 </li>
 <li class="menu-item menu-item-type-taxonomy menu-item-object-category penci-mega-menu menu-item-330"><a href="http://pencidesign.com/soledad/soledad-magazine/category/entertainment/">Entertainment</a>
@@ -1291,84 +1077,84 @@
 <li class="menu-item menu-item-type-taxonomy menu-item-object-category penci-mega-menu menu-item-377"><a href="http://pencidesign.com/soledad/soledad-magazine/category/entertainment/sport/">Sport</a>
     <ul class="sub-menu">
         <li class="menu-item-0"><div class="penci-megamenu">
-            <div class="penci-content-megamenu">
-                <div class="penci-mega-latest-posts col-mn-5">
-                    <div class="penci-mega-row penci-mega-10 row-active">
-                        <div class="penci-mega-post">
-                            <div class="penci-mega-thumbnail">
+                <div class="penci-content-megamenu">
+                    <div class="penci-mega-latest-posts col-mn-5">
+                        <div class="penci-mega-row penci-mega-10 row-active">
+                            <div class="penci-mega-post">
+                                <div class="penci-mega-thumbnail">
 																<span class="mega-cat-name">
 																			Sport																	</span>
-                                <a href="http://pencidesign.com/soledad/soledad-magazine/canadian-rockies-rafting-near-banff-national-park/" title="Canadian Rockies Rafting near Banff National Park">
-                                    <img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="rafting-883523" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-1024x682.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-1170x780.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" />								</a>
+                                    <a href="http://pencidesign.com/soledad/soledad-magazine/canadian-rockies-rafting-near-banff-national-park/" title="Canadian Rockies Rafting near Banff National Park">
+                                        <img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="rafting-883523" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-1024x682.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-1170x780.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" />								</a>
+                                </div>
+                                <div class="penci-mega-meta">
+                                    <h3 class="post-mega-title">
+                                        <a href="http://pencidesign.com/soledad/soledad-magazine/canadian-rockies-rafting-near-banff-national-park/">Canadian Rockies Rafting near Banff National Park</a>
+                                    </h3>
+                                    <p class="penci-mega-date">September 7, 2015</p>
+                                </div>
                             </div>
-                            <div class="penci-mega-meta">
-                                <h3 class="post-mega-title">
-                                    <a href="http://pencidesign.com/soledad/soledad-magazine/canadian-rockies-rafting-near-banff-national-park/">Canadian Rockies Rafting near Banff National Park</a>
-                                </h3>
-                                <p class="penci-mega-date">September 7, 2015</p>
-                            </div>
-                        </div>
-                        <div class="penci-mega-post">
-                            <div class="penci-mega-thumbnail">
+                            <div class="penci-mega-post">
+                                <div class="penci-mega-thumbnail">
 																<span class="mega-cat-name">
 																			Sport																	</span>
-                                <a href="http://pencidesign.com/soledad/soledad-magazine/5-places-to-visit-in-your-lifetime/" title="5 Places to visit in your Lifetime">
-                                    <img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="mountains" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains-1024x683.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" />								</a>
+                                    <a href="http://pencidesign.com/soledad/soledad-magazine/5-places-to-visit-in-your-lifetime/" title="5 Places to visit in your Lifetime">
+                                        <img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="mountains" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains-1024x683.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" />								</a>
+                                </div>
+                                <div class="penci-mega-meta">
+                                    <h3 class="post-mega-title">
+                                        <a href="http://pencidesign.com/soledad/soledad-magazine/5-places-to-visit-in-your-lifetime/">5 Places to visit in your Lifetime</a>
+                                    </h3>
+                                    <p class="penci-mega-date">September 7, 2015</p>
+                                </div>
                             </div>
-                            <div class="penci-mega-meta">
-                                <h3 class="post-mega-title">
-                                    <a href="http://pencidesign.com/soledad/soledad-magazine/5-places-to-visit-in-your-lifetime/">5 Places to visit in your Lifetime</a>
-                                </h3>
-                                <p class="penci-mega-date">September 7, 2015</p>
-                            </div>
-                        </div>
-                        <div class="penci-mega-post">
-                            <div class="penci-mega-thumbnail">
+                            <div class="penci-mega-post">
+                                <div class="penci-mega-thumbnail">
 																<span class="mega-cat-name">
 																			Sport																	</span>
-                                <a href="http://pencidesign.com/soledad/soledad-magazine/baseball-ja-happ-marcus-stroman-jayson-werth-matt-harvey/" title="Matt Harvey owners can look to J.A. Happ, Marcus Stroman">
-                                    <img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/baseball-player-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="baseball-player" />								</a>
+                                    <a href="http://pencidesign.com/soledad/soledad-magazine/baseball-ja-happ-marcus-stroman-jayson-werth-matt-harvey/" title="Matt Harvey owners can look to J.A. Happ, Marcus Stroman">
+                                        <img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/baseball-player-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="baseball-player" />								</a>
+                                </div>
+                                <div class="penci-mega-meta">
+                                    <h3 class="post-mega-title">
+                                        <a href="http://pencidesign.com/soledad/soledad-magazine/baseball-ja-happ-marcus-stroman-jayson-werth-matt-harvey/">Matt Harvey owners can look to J.A. Happ, Marcus Stroman</a>
+                                    </h3>
+                                    <p class="penci-mega-date">September 7, 2015</p>
+                                </div>
                             </div>
-                            <div class="penci-mega-meta">
-                                <h3 class="post-mega-title">
-                                    <a href="http://pencidesign.com/soledad/soledad-magazine/baseball-ja-happ-marcus-stroman-jayson-werth-matt-harvey/">Matt Harvey owners can look to J.A. Happ, Marcus Stroman</a>
-                                </h3>
-                                <p class="penci-mega-date">September 7, 2015</p>
-                            </div>
-                        </div>
-                        <div class="penci-mega-post">
-                            <div class="penci-mega-thumbnail">
+                            <div class="penci-mega-post">
+                                <div class="penci-mega-thumbnail">
 																<span class="mega-cat-name">
 																			Sport																	</span>
-                                <a href="http://pencidesign.com/soledad/soledad-magazine/mcns-adam-child-to-line-up-on-norton-machinery-at-gold-cup/" title="MCN’s Adam Child to line up on Norton machinery at Gold Cup">
-                                    <img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/biker-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="biker" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/biker-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/biker-1024x683.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/biker.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/biker-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" />								</a>
+                                    <a href="http://pencidesign.com/soledad/soledad-magazine/mcns-adam-child-to-line-up-on-norton-machinery-at-gold-cup/" title="MCN’s Adam Child to line up on Norton machinery at Gold Cup">
+                                        <img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/biker-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="biker" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/biker-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/biker-1024x683.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/biker.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/biker-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" />								</a>
+                                </div>
+                                <div class="penci-mega-meta">
+                                    <h3 class="post-mega-title">
+                                        <a href="http://pencidesign.com/soledad/soledad-magazine/mcns-adam-child-to-line-up-on-norton-machinery-at-gold-cup/">MCN’s Adam Child to line up on Norton machinery at Gold Cup</a>
+                                    </h3>
+                                    <p class="penci-mega-date">September 7, 2015</p>
+                                </div>
                             </div>
-                            <div class="penci-mega-meta">
-                                <h3 class="post-mega-title">
-                                    <a href="http://pencidesign.com/soledad/soledad-magazine/mcns-adam-child-to-line-up-on-norton-machinery-at-gold-cup/">MCN’s Adam Child to line up on Norton machinery at Gold Cup</a>
-                                </h3>
-                                <p class="penci-mega-date">September 7, 2015</p>
-                            </div>
-                        </div>
-                        <div class="penci-mega-post">
-                            <div class="penci-mega-thumbnail">
+                            <div class="penci-mega-post">
+                                <div class="penci-mega-thumbnail">
 																<span class="mega-cat-name">
 																			Sport																	</span>
-                                <a href="http://pencidesign.com/soledad/soledad-magazine/surfboards-mega-swell-light-latest-nz-surfing-magazine/" title="Surfboards &amp; Mega Swell light up latest NZ Surfing Magazine">
-                                    <img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/water-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="water" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/water-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/water-1024x683.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/water.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/water-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" />								</a>
-                            </div>
-                            <div class="penci-mega-meta">
-                                <h3 class="post-mega-title">
-                                    <a href="http://pencidesign.com/soledad/soledad-magazine/surfboards-mega-swell-light-latest-nz-surfing-magazine/">Surfboards &amp; Mega Swell light up latest NZ Surfing Magazine</a>
-                                </h3>
-                                <p class="penci-mega-date">September 7, 2015</p>
+                                    <a href="http://pencidesign.com/soledad/soledad-magazine/surfboards-mega-swell-light-latest-nz-surfing-magazine/" title="Surfboards &amp; Mega Swell light up latest NZ Surfing Magazine">
+                                        <img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/water-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="water" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/water-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/water-1024x683.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/water.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/water-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" />								</a>
+                                </div>
+                                <div class="penci-mega-meta">
+                                    <h3 class="post-mega-title">
+                                        <a href="http://pencidesign.com/soledad/soledad-magazine/surfboards-mega-swell-light-latest-nz-surfing-magazine/">Surfboards &amp; Mega Swell light up latest NZ Surfing Magazine</a>
+                                    </h3>
+                                    <p class="penci-mega-date">September 7, 2015</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-        </div></li>
+            </div></li>
     </ul>
 </li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-624"><a href="#">Portfolio</a>
@@ -1420,97 +1206,97 @@
             <div class="featured-overlay featured-overlay-color"></div>
             <div class="featured-overlay featured-overlay-partent"></div>
             <img width="1170" height="663" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/save-time-1170x663.jpg" class="attachment-penci-slider-thumb size-penci-slider-thumb wp-post-image" alt="save-time" />									<div class="featured-content">
-            <div class="feat-text">
-                <div class="featured-slider-overlay"></div>
-                <span class="feat-time">Sep 7, 2015</span>
-                <div class="featured-cat"><a class="penci-cat-name" href="http://pencidesign.com/soledad/soledad-magazine/category/editors-pick/" title="View all posts in Editor&#039;s Pick" >Editor's Pick</a><a class="penci-cat-name" href="http://pencidesign.com/soledad/soledad-magazine/category/entertainment/" title="View all posts in Entertainment" >Entertainment</a></div>
-                <h3><a href="http://pencidesign.com/soledad/soledad-magazine/10-efficient-ways-to-save-time-in-daily-life/">10 Efficient Ways to Save Time in Daily Life</a></h3>
-                <div class="carousel-meta">
-                    <span class="feat-author">by <a href="http://pencidesign.com/soledad/soledad-magazine/author/magazine/">Richard Roe</a></span>
-                    <span class="feat-comments"><a href="http://pencidesign.com/soledad/soledad-magazine/10-efficient-ways-to-save-time-in-daily-life/#comments ">3 comments</a></span>
+                <div class="feat-text">
+                    <div class="featured-slider-overlay"></div>
+                    <span class="feat-time">Sep 7, 2015</span>
+                    <div class="featured-cat"><a class="penci-cat-name" href="http://pencidesign.com/soledad/soledad-magazine/category/editors-pick/" title="View all posts in Editor&#039;s Pick" >Editor's Pick</a><a class="penci-cat-name" href="http://pencidesign.com/soledad/soledad-magazine/category/entertainment/" title="View all posts in Entertainment" >Entertainment</a></div>
+                    <h3><a href="http://pencidesign.com/soledad/soledad-magazine/10-efficient-ways-to-save-time-in-daily-life/">10 Efficient Ways to Save Time in Daily Life</a></h3>
+                    <div class="carousel-meta">
+                        <span class="feat-author">by <a href="http://pencidesign.com/soledad/soledad-magazine/author/magazine/">Richard Roe</a></span>
+                        <span class="feat-comments"><a href="http://pencidesign.com/soledad/soledad-magazine/10-efficient-ways-to-save-time-in-daily-life/#comments ">3 comments</a></span>
+                    </div>
                 </div>
             </div>
-        </div>
         </figure>
         <figure class="item">
             <div class="featured-overlay featured-overlay-color"></div>
             <div class="featured-overlay featured-overlay-partent"></div>
             <img width="1170" height="663" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/smart-watch-1170x663.jpg" class="attachment-penci-slider-thumb size-penci-slider-thumb wp-post-image" alt="This is an image caption" />									<div class="featured-content">
-            <div class="feat-text">
-                <div class="featured-slider-overlay"></div>
-                <span class="feat-time">Sep 7, 2015</span>
-                <div class="featured-cat"><a class="penci-cat-name" href="http://pencidesign.com/soledad/soledad-magazine/category/editors-pick/" title="View all posts in Editor&#039;s Pick" >Editor's Pick</a><a class="penci-cat-name" href="http://pencidesign.com/soledad/soledad-magazine/category/technology/" title="View all posts in Technology" >Technology</a></div>
-                <h3><a href="http://pencidesign.com/soledad/soledad-magazine/apple-watch-vs-moto-360-which-one-should-you-buy-video/">Apple Watch vs Moto 360: Which one should you buy?</a></h3>
-                <div class="carousel-meta">
-                    <span class="feat-author">by <a href="http://pencidesign.com/soledad/soledad-magazine/author/magazine1/">Isaac Taylor</a></span>
-                    <span class="feat-comments"><a href="http://pencidesign.com/soledad/soledad-magazine/apple-watch-vs-moto-360-which-one-should-you-buy-video/#comments ">3 comments</a></span>
+                <div class="feat-text">
+                    <div class="featured-slider-overlay"></div>
+                    <span class="feat-time">Sep 7, 2015</span>
+                    <div class="featured-cat"><a class="penci-cat-name" href="http://pencidesign.com/soledad/soledad-magazine/category/editors-pick/" title="View all posts in Editor&#039;s Pick" >Editor's Pick</a><a class="penci-cat-name" href="http://pencidesign.com/soledad/soledad-magazine/category/technology/" title="View all posts in Technology" >Technology</a></div>
+                    <h3><a href="http://pencidesign.com/soledad/soledad-magazine/apple-watch-vs-moto-360-which-one-should-you-buy-video/">Apple Watch vs Moto 360: Which one should you buy?</a></h3>
+                    <div class="carousel-meta">
+                        <span class="feat-author">by <a href="http://pencidesign.com/soledad/soledad-magazine/author/magazine1/">Isaac Taylor</a></span>
+                        <span class="feat-comments"><a href="http://pencidesign.com/soledad/soledad-magazine/apple-watch-vs-moto-360-which-one-should-you-buy-video/#comments ">3 comments</a></span>
+                    </div>
                 </div>
             </div>
-        </div>
         </figure>
         <figure class="item">
             <div class="featured-overlay featured-overlay-color"></div>
             <div class="featured-overlay featured-overlay-partent"></div>
             <img width="1170" height="663" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/car2-1170x663.jpg" class="attachment-penci-slider-thumb size-penci-slider-thumb wp-post-image" alt="car2" />									<div class="featured-content">
-            <div class="feat-text">
-                <div class="featured-slider-overlay"></div>
-                <span class="feat-time">Sep 7, 2015</span>
-                <div class="featured-cat"><a class="penci-cat-name" href="http://pencidesign.com/soledad/soledad-magazine/category/editors-pick/" title="View all posts in Editor&#039;s Pick" >Editor's Pick</a><a class="penci-cat-name" href="http://pencidesign.com/soledad/soledad-magazine/category/entertainment/movies/" title="View all posts in Movies" >Movies</a></div>
-                <h3><a href="http://pencidesign.com/soledad/soledad-magazine/box-office-transporter-refueled-crashes-theater/">Box Office: &#8216;Transporter Refueled&#8217; Crashes Theater</a></h3>
-                <div class="carousel-meta">
-                    <span class="feat-author">by <a href="http://pencidesign.com/soledad/soledad-magazine/author/magazine/">Richard Roe</a></span>
-                    <span class="feat-comments"><a href="http://pencidesign.com/soledad/soledad-magazine/box-office-transporter-refueled-crashes-theater/#comments ">3 comments</a></span>
+                <div class="feat-text">
+                    <div class="featured-slider-overlay"></div>
+                    <span class="feat-time">Sep 7, 2015</span>
+                    <div class="featured-cat"><a class="penci-cat-name" href="http://pencidesign.com/soledad/soledad-magazine/category/editors-pick/" title="View all posts in Editor&#039;s Pick" >Editor's Pick</a><a class="penci-cat-name" href="http://pencidesign.com/soledad/soledad-magazine/category/entertainment/movies/" title="View all posts in Movies" >Movies</a></div>
+                    <h3><a href="http://pencidesign.com/soledad/soledad-magazine/box-office-transporter-refueled-crashes-theater/">Box Office: &#8216;Transporter Refueled&#8217; Crashes Theater</a></h3>
+                    <div class="carousel-meta">
+                        <span class="feat-author">by <a href="http://pencidesign.com/soledad/soledad-magazine/author/magazine/">Richard Roe</a></span>
+                        <span class="feat-comments"><a href="http://pencidesign.com/soledad/soledad-magazine/box-office-transporter-refueled-crashes-theater/#comments ">3 comments</a></span>
+                    </div>
                 </div>
             </div>
-        </div>
         </figure>
         <figure class="item">
             <div class="featured-overlay featured-overlay-color"></div>
             <div class="featured-overlay featured-overlay-partent"></div>
             <img width="1170" height="663" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cruise-1170x663.jpg" class="attachment-penci-slider-thumb size-penci-slider-thumb wp-post-image" alt="cruise" />									<div class="featured-content">
-            <div class="feat-text">
-                <div class="featured-slider-overlay"></div>
-                <span class="feat-time">Sep 7, 2015</span>
-                <div class="featured-cat"><a class="penci-cat-name" href="http://pencidesign.com/soledad/soledad-magazine/category/editors-pick/" title="View all posts in Editor&#039;s Pick" >Editor's Pick</a><a class="penci-cat-name" href="http://pencidesign.com/soledad/soledad-magazine/category/travel/" title="View all posts in Travel" >Travel</a></div>
-                <h3><a href="http://pencidesign.com/soledad/soledad-magazine/time-cruise-mediterranean/">The Best Time to Cruise the Mediterranean</a></h3>
-                <div class="carousel-meta">
-                    <span class="feat-author">by <a href="http://pencidesign.com/soledad/soledad-magazine/author/magazine/">Richard Roe</a></span>
-                    <span class="feat-comments"><a href="http://pencidesign.com/soledad/soledad-magazine/time-cruise-mediterranean/#comments ">3 comments</a></span>
+                <div class="feat-text">
+                    <div class="featured-slider-overlay"></div>
+                    <span class="feat-time">Sep 7, 2015</span>
+                    <div class="featured-cat"><a class="penci-cat-name" href="http://pencidesign.com/soledad/soledad-magazine/category/editors-pick/" title="View all posts in Editor&#039;s Pick" >Editor's Pick</a><a class="penci-cat-name" href="http://pencidesign.com/soledad/soledad-magazine/category/travel/" title="View all posts in Travel" >Travel</a></div>
+                    <h3><a href="http://pencidesign.com/soledad/soledad-magazine/time-cruise-mediterranean/">The Best Time to Cruise the Mediterranean</a></h3>
+                    <div class="carousel-meta">
+                        <span class="feat-author">by <a href="http://pencidesign.com/soledad/soledad-magazine/author/magazine/">Richard Roe</a></span>
+                        <span class="feat-comments"><a href="http://pencidesign.com/soledad/soledad-magazine/time-cruise-mediterranean/#comments ">3 comments</a></span>
+                    </div>
                 </div>
             </div>
-        </div>
         </figure>
         <figure class="item">
             <div class="featured-overlay featured-overlay-color"></div>
             <div class="featured-overlay featured-overlay-partent"></div>
             <img width="1170" height="663" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/iphone-1170x663.jpg" class="attachment-penci-slider-thumb size-penci-slider-thumb wp-post-image" alt="iphone" />									<div class="featured-content">
-            <div class="feat-text">
-                <div class="featured-slider-overlay"></div>
-                <span class="feat-time">Sep 7, 2015</span>
-                <div class="featured-cat"><a class="penci-cat-name" href="http://pencidesign.com/soledad/soledad-magazine/category/editors-pick/" title="View all posts in Editor&#039;s Pick" >Editor's Pick</a><a class="penci-cat-name" href="http://pencidesign.com/soledad/soledad-magazine/category/technology/" title="View all posts in Technology" >Technology</a></div>
-                <h3><a href="http://pencidesign.com/soledad/soledad-magazine/iphone-6s-launch-and-expectations/">iPhone 6S Launch: What To Expect?</a></h3>
-                <div class="carousel-meta">
-                    <span class="feat-author">by <a href="http://pencidesign.com/soledad/soledad-magazine/author/magazine/">Richard Roe</a></span>
-                    <span class="feat-comments"><a href="http://pencidesign.com/soledad/soledad-magazine/iphone-6s-launch-and-expectations/#comments ">3 comments</a></span>
+                <div class="feat-text">
+                    <div class="featured-slider-overlay"></div>
+                    <span class="feat-time">Sep 7, 2015</span>
+                    <div class="featured-cat"><a class="penci-cat-name" href="http://pencidesign.com/soledad/soledad-magazine/category/editors-pick/" title="View all posts in Editor&#039;s Pick" >Editor's Pick</a><a class="penci-cat-name" href="http://pencidesign.com/soledad/soledad-magazine/category/technology/" title="View all posts in Technology" >Technology</a></div>
+                    <h3><a href="http://pencidesign.com/soledad/soledad-magazine/iphone-6s-launch-and-expectations/">iPhone 6S Launch: What To Expect?</a></h3>
+                    <div class="carousel-meta">
+                        <span class="feat-author">by <a href="http://pencidesign.com/soledad/soledad-magazine/author/magazine/">Richard Roe</a></span>
+                        <span class="feat-comments"><a href="http://pencidesign.com/soledad/soledad-magazine/iphone-6s-launch-and-expectations/#comments ">3 comments</a></span>
+                    </div>
                 </div>
             </div>
-        </div>
         </figure>
         <figure class="item">
             <div class="featured-overlay featured-overlay-color"></div>
             <div class="featured-overlay featured-overlay-partent"></div>
             <img width="1170" height="663" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/photographer-1170x663.jpg" class="attachment-penci-slider-thumb size-penci-slider-thumb wp-post-image" alt="photographer" />									<div class="featured-content">
-            <div class="feat-text">
-                <div class="featured-slider-overlay"></div>
-                <span class="feat-time">Sep 7, 2015</span>
-                <div class="featured-cat"><a class="penci-cat-name" href="http://pencidesign.com/soledad/soledad-magazine/category/editors-pick/" title="View all posts in Editor&#039;s Pick" >Editor's Pick</a><a class="penci-cat-name" href="http://pencidesign.com/soledad/soledad-magazine/category/entertainment/" title="View all posts in Entertainment" >Entertainment</a></div>
-                <h3><a href="http://pencidesign.com/soledad/soledad-magazine/the-street-child-who-became-a-top-photographer/">The street child who became a top photographer</a></h3>
-                <div class="carousel-meta">
-                    <span class="feat-author">by <a href="http://pencidesign.com/soledad/soledad-magazine/author/magazine/">Richard Roe</a></span>
-                    <span class="feat-comments"><a href="http://pencidesign.com/soledad/soledad-magazine/the-street-child-who-became-a-top-photographer/#comments ">3 comments</a></span>
+                <div class="feat-text">
+                    <div class="featured-slider-overlay"></div>
+                    <span class="feat-time">Sep 7, 2015</span>
+                    <div class="featured-cat"><a class="penci-cat-name" href="http://pencidesign.com/soledad/soledad-magazine/category/editors-pick/" title="View all posts in Editor&#039;s Pick" >Editor's Pick</a><a class="penci-cat-name" href="http://pencidesign.com/soledad/soledad-magazine/category/entertainment/" title="View all posts in Entertainment" >Entertainment</a></div>
+                    <h3><a href="http://pencidesign.com/soledad/soledad-magazine/the-street-child-who-became-a-top-photographer/">The street child who became a top photographer</a></h3>
+                    <div class="carousel-meta">
+                        <span class="feat-author">by <a href="http://pencidesign.com/soledad/soledad-magazine/author/magazine/">Richard Roe</a></span>
+                        <span class="feat-comments"><a href="http://pencidesign.com/soledad/soledad-magazine/the-street-child-who-became-a-top-photographer/#comments ">3 comments</a></span>
+                    </div>
                 </div>
             </div>
-        </div>
         </figure>
     </div>
 </div>
@@ -1525,65 +1311,65 @@
     </div>
     <div class="home-featured-cat-content style-1">
         <div class="cat-left"><div class="mag-post-box first-post">
-            <div class="magcat-thumb">
-                <a href="http://pencidesign.com/soledad/soledad-magazine/what-its-like-to-travel-to-greece-right-now/"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/lagoon-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="lagoon" /></a>
+                <div class="magcat-thumb">
+                    <a href="http://pencidesign.com/soledad/soledad-magazine/what-its-like-to-travel-to-greece-right-now/"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/lagoon-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="lagoon" /></a>
+                </div>
+                <div class="magcat-detail">
+                    <div class="mag-header">		<h3 class="magcat-titlte"><a href="http://pencidesign.com/soledad/soledad-magazine/what-its-like-to-travel-to-greece-right-now/">What It’s Like to Travel to Greece Right Now</a></h3>
+                        <div class="grid-post-box-meta mag-meta">
+                            <span class="author-italic">by <a href="http://pencidesign.com/soledad/soledad-magazine/author/magazine1/">Isaac Taylor</a></span>
+                            <span>September 7, 2015</span>
+                        </div>
+                    </div>					<div class="mag-excerpt">
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cumt sociis natoque penatibus et magnis dis&hellip;</p>
+                    </div>
+                </div>
             </div>
-            <div class="magcat-detail">
-                <div class="mag-header">		<h3 class="magcat-titlte"><a href="http://pencidesign.com/soledad/soledad-magazine/what-its-like-to-travel-to-greece-right-now/">What It’s Like to Travel to Greece Right Now</a></h3>
+        </div><div class="cat-right"><div class="mag-post-box">
+                <div class="magcat-thumb">
+                    <a href="http://pencidesign.com/soledad/soledad-magazine/5-places-to-visit-in-your-lifetime/"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="mountains" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains-1024x683.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" /></a>
+                </div>
+                <div class="magcat-detail">
+                    <h3 class="magcat-titlte"><a href="http://pencidesign.com/soledad/soledad-magazine/5-places-to-visit-in-your-lifetime/">5 Places to visit in your Lifetime</a></h3>
                     <div class="grid-post-box-meta mag-meta">
-                        <span class="author-italic">by <a href="http://pencidesign.com/soledad/soledad-magazine/author/magazine1/">Isaac Taylor</a></span>
                         <span>September 7, 2015</span>
                     </div>
-                </div>					<div class="mag-excerpt">
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cumt sociis natoque penatibus et magnis dis&hellip;</p>
-            </div>
-            </div>
-        </div>
-        </div><div class="cat-right"><div class="mag-post-box">
-        <div class="magcat-thumb">
-            <a href="http://pencidesign.com/soledad/soledad-magazine/5-places-to-visit-in-your-lifetime/"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="mountains" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains-1024x683.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" /></a>
-        </div>
-        <div class="magcat-detail">
-            <h3 class="magcat-titlte"><a href="http://pencidesign.com/soledad/soledad-magazine/5-places-to-visit-in-your-lifetime/">5 Places to visit in your Lifetime</a></h3>
-            <div class="grid-post-box-meta mag-meta">
-                <span>September 7, 2015</span>
-            </div>
-        </div>
-    </div>
-        <div class="mag-post-box">
-            <div class="magcat-thumb">
-                <a href="http://pencidesign.com/soledad/soledad-magazine/time-cruise-mediterranean/"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cruise-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="cruise" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cruise-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cruise-1024x683.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cruise-1170x781.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cruise-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" /></a>
-            </div>
-            <div class="magcat-detail">
-                <h3 class="magcat-titlte"><a href="http://pencidesign.com/soledad/soledad-magazine/time-cruise-mediterranean/">The Best Time to Cruise the Mediterranean</a></h3>
-                <div class="grid-post-box-meta mag-meta">
-                    <span>September 7, 2015</span>
                 </div>
             </div>
-        </div>
-        <div class="mag-post-box">
-            <div class="magcat-thumb">
-                <a href="http://pencidesign.com/soledad/soledad-magazine/taj-mahal-world-s-most-photographed-monument/"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/india-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="india" /></a>
-            </div>
-            <div class="magcat-detail">
-                <h3 class="magcat-titlte"><a href="http://pencidesign.com/soledad/soledad-magazine/taj-mahal-world-s-most-photographed-monument/">Taj Mahal world&#8217;s most photographed monument?</a></h3>
-                <div class="grid-post-box-meta mag-meta">
-                    <span>September 7, 2015</span>
+            <div class="mag-post-box">
+                <div class="magcat-thumb">
+                    <a href="http://pencidesign.com/soledad/soledad-magazine/time-cruise-mediterranean/"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cruise-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="cruise" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cruise-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cruise-1024x683.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cruise-1170x781.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cruise-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" /></a>
+                </div>
+                <div class="magcat-detail">
+                    <h3 class="magcat-titlte"><a href="http://pencidesign.com/soledad/soledad-magazine/time-cruise-mediterranean/">The Best Time to Cruise the Mediterranean</a></h3>
+                    <div class="grid-post-box-meta mag-meta">
+                        <span>September 7, 2015</span>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="mag-post-box">
-            <div class="magcat-thumb">
-                <a href="http://pencidesign.com/soledad/soledad-magazine/10-tips-to-visit-greece-in-autumn/"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/greece-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="greece" /></a>
-            </div>
-            <div class="magcat-detail">
-                <h3 class="magcat-titlte"><a href="http://pencidesign.com/soledad/soledad-magazine/10-tips-to-visit-greece-in-autumn/">10 Tips to visit Greece in Autumn</a></h3>
-                <div class="grid-post-box-meta mag-meta">
-                    <span>September 7, 2015</span>
+            <div class="mag-post-box">
+                <div class="magcat-thumb">
+                    <a href="http://pencidesign.com/soledad/soledad-magazine/taj-mahal-world-s-most-photographed-monument/"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/india-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="india" /></a>
+                </div>
+                <div class="magcat-detail">
+                    <h3 class="magcat-titlte"><a href="http://pencidesign.com/soledad/soledad-magazine/taj-mahal-world-s-most-photographed-monument/">Taj Mahal world&#8217;s most photographed monument?</a></h3>
+                    <div class="grid-post-box-meta mag-meta">
+                        <span>September 7, 2015</span>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>												</div>
+            <div class="mag-post-box">
+                <div class="magcat-thumb">
+                    <a href="http://pencidesign.com/soledad/soledad-magazine/10-tips-to-visit-greece-in-autumn/"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/greece-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="greece" /></a>
+                </div>
+                <div class="magcat-detail">
+                    <h3 class="magcat-titlte"><a href="http://pencidesign.com/soledad/soledad-magazine/10-tips-to-visit-greece-in-autumn/">10 Tips to visit Greece in Autumn</a></h3>
+                    <div class="grid-post-box-meta mag-meta">
+                        <span>September 7, 2015</span>
+                    </div>
+                </div>
+            </div>
+        </div>												</div>
 
 
 </section>
@@ -1771,8 +1557,8 @@
                         <span>September 7, 2015</span>
                     </div>
                 </div>					<div class="mag-excerpt">
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cumt sociis natoque penatibus et magnis dis&hellip;</p>
-            </div>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cumt sociis natoque penatibus et magnis dis&hellip;</p>
+                </div>
             </div>
         </div>
         <div class="mag-post-box">
@@ -1828,8 +1614,8 @@
                         <span>September 7, 2015</span>
                     </div>
                 </div>					<div class="mag-excerpt">
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cumt sociis natoque penatibus et magnis dis&hellip;</p>
-            </div>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cumt sociis natoque penatibus et magnis dis&hellip;</p>
+                </div>
             </div>
         </div>
         <div class="mag-post-box">
@@ -2150,11 +1936,11 @@
 </li>
 </ul>
 <div class="penci-pagination align-left"><ul class='page-numbers'>
-    <li><span class='page-numbers current'>1</span></li>
-    <li><a class='page-numbers' href='http://pencidesign.com/soledad/soledad-magazine/page/2/?slider=style-1'>2</a></li>
-    <li><a class='page-numbers' href='http://pencidesign.com/soledad/soledad-magazine/page/3/?slider=style-1'>3</a></li>
-    <li><a class="next page-numbers" href="http://pencidesign.com/soledad/soledad-magazine/page/2/?slider=style-1"><i class="fa fa-angle-right"></i></a></li>
-</ul>
+        <li><span class='page-numbers current'>1</span></li>
+        <li><a class='page-numbers' href='http://pencidesign.com/soledad/soledad-magazine/page/2/?slider=style-1'>2</a></li>
+        <li><a class='page-numbers' href='http://pencidesign.com/soledad/soledad-magazine/page/3/?slider=style-1'>3</a></li>
+        <li><a class="next page-numbers" href="http://pencidesign.com/soledad/soledad-magazine/page/2/?slider=style-1"><i class="fa fa-angle-right"></i></a></li>
+    </ul>
 </div>
 
 </div>
@@ -2190,201 +1976,201 @@
 </aside><aside id="penci_popular_news_widget-2" class="widget penci_popular_news_widget"><h4 class="widget-title penci-border-arrow"><span class="inner-arrow">Popular Posts</span></h4>			<ul class="side-newsfeed">
 
 
-    <li class="penci-feed featured-news">
-        <div class="side-item">
-            <div class="side-image">
-                <a href="http://pencidesign.com/soledad/soledad-magazine/apple-haptic-tech-is-a-peak-at-the-ui-of-the-future/" rel="bookmark" title="Apple’s Haptic Tech Is a peak at the UI of the Future"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mac-585x390.jpg" class="side-item-thumb wp-post-image" alt="mac" /></a>
+        <li class="penci-feed featured-news">
+            <div class="side-item">
+                <div class="side-image">
+                    <a href="http://pencidesign.com/soledad/soledad-magazine/apple-haptic-tech-is-a-peak-at-the-ui-of-the-future/" rel="bookmark" title="Apple’s Haptic Tech Is a peak at the UI of the Future"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mac-585x390.jpg" class="side-item-thumb wp-post-image" alt="mac" /></a>
+                </div>
+                <div class="side-item-text">
+                    <h4><a href="http://pencidesign.com/soledad/soledad-magazine/apple-haptic-tech-is-a-peak-at-the-ui-of-the-future/" rel="bookmark" title="Apple’s Haptic Tech Is a peak at the UI of the Future">Apple’s Haptic Tech Is a peak at the UI of the Future</a></h4>
+                    <span class="side-item-meta">September 7, 2015</span>
+                </div>
             </div>
-            <div class="side-item-text">
-                <h4><a href="http://pencidesign.com/soledad/soledad-magazine/apple-haptic-tech-is-a-peak-at-the-ui-of-the-future/" rel="bookmark" title="Apple’s Haptic Tech Is a peak at the UI of the Future">Apple’s Haptic Tech Is a peak at the UI of the Future</a></h4>
-                <span class="side-item-meta">September 7, 2015</span>
-            </div>
-        </div>
-    </li>
+        </li>
 
 
-    <li class="penci-feed">
-        <div class="side-item">
-            <div class="side-image">
-                <a href="http://pencidesign.com/soledad/soledad-magazine/furniture-makes-this-office-look-like-a-toy-box/" rel="bookmark" title="Furniture Makes This Office Look Like a Toy Box"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cab-585x390.jpg" class="side-item-thumb wp-post-image" alt="cab" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cab-1024x681.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cab-1170x778.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cab-585x389.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" /></a>
+        <li class="penci-feed">
+            <div class="side-item">
+                <div class="side-image">
+                    <a href="http://pencidesign.com/soledad/soledad-magazine/furniture-makes-this-office-look-like-a-toy-box/" rel="bookmark" title="Furniture Makes This Office Look Like a Toy Box"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cab-585x390.jpg" class="side-item-thumb wp-post-image" alt="cab" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cab-1024x681.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cab-1170x778.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cab-585x389.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" /></a>
+                </div>
+                <div class="side-item-text">
+                    <h4><a href="http://pencidesign.com/soledad/soledad-magazine/furniture-makes-this-office-look-like-a-toy-box/" rel="bookmark" title="Furniture Makes This Office Look Like a Toy Box">Furniture Makes This Office Look Like a Toy Box</a></h4>
+                    <span class="side-item-meta">September 7, 2015</span>
+                </div>
             </div>
-            <div class="side-item-text">
-                <h4><a href="http://pencidesign.com/soledad/soledad-magazine/furniture-makes-this-office-look-like-a-toy-box/" rel="bookmark" title="Furniture Makes This Office Look Like a Toy Box">Furniture Makes This Office Look Like a Toy Box</a></h4>
-                <span class="side-item-meta">September 7, 2015</span>
-            </div>
-        </div>
-    </li>
+        </li>
 
 
-    <li class="penci-feed">
-        <div class="side-item">
-            <div class="side-image">
-                <a href="http://pencidesign.com/soledad/soledad-magazine/kermits-new-girlfriend-enrages-the-internet/" rel="bookmark" title="Kermit’s New Girlfriend Enrages the Internet"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/new-york-585x390.jpg" class="side-item-thumb wp-post-image" alt="new-york" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/new-york-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/new-york-1024x683.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/new-york-1170x780.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/new-york-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" /></a>
+        <li class="penci-feed">
+            <div class="side-item">
+                <div class="side-image">
+                    <a href="http://pencidesign.com/soledad/soledad-magazine/kermits-new-girlfriend-enrages-the-internet/" rel="bookmark" title="Kermit’s New Girlfriend Enrages the Internet"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/new-york-585x390.jpg" class="side-item-thumb wp-post-image" alt="new-york" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/new-york-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/new-york-1024x683.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/new-york-1170x780.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/new-york-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" /></a>
+                </div>
+                <div class="side-item-text">
+                    <h4><a href="http://pencidesign.com/soledad/soledad-magazine/kermits-new-girlfriend-enrages-the-internet/" rel="bookmark" title="Kermit’s New Girlfriend Enrages the Internet">Kermit’s New Girlfriend Enrages the Internet</a></h4>
+                    <span class="side-item-meta">September 7, 2015</span>
+                </div>
             </div>
-            <div class="side-item-text">
-                <h4><a href="http://pencidesign.com/soledad/soledad-magazine/kermits-new-girlfriend-enrages-the-internet/" rel="bookmark" title="Kermit’s New Girlfriend Enrages the Internet">Kermit’s New Girlfriend Enrages the Internet</a></h4>
-                <span class="side-item-meta">September 7, 2015</span>
-            </div>
-        </div>
-    </li>
+        </li>
 
 
-    <li class="penci-feed">
-        <div class="side-item">
-            <div class="side-image">
-                <a href="http://pencidesign.com/soledad/soledad-magazine/what-its-like-to-travel-to-greece-right-now/" rel="bookmark" title="What It’s Like to Travel to Greece Right Now"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/lagoon-585x390.jpg" class="side-item-thumb wp-post-image" alt="lagoon" /></a>
+        <li class="penci-feed">
+            <div class="side-item">
+                <div class="side-image">
+                    <a href="http://pencidesign.com/soledad/soledad-magazine/what-its-like-to-travel-to-greece-right-now/" rel="bookmark" title="What It’s Like to Travel to Greece Right Now"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/lagoon-585x390.jpg" class="side-item-thumb wp-post-image" alt="lagoon" /></a>
+                </div>
+                <div class="side-item-text">
+                    <h4><a href="http://pencidesign.com/soledad/soledad-magazine/what-its-like-to-travel-to-greece-right-now/" rel="bookmark" title="What It’s Like to Travel to Greece Right Now">What It’s Like to Travel to Greece Right Now</a></h4>
+                    <span class="side-item-meta">September 7, 2015</span>
+                </div>
             </div>
-            <div class="side-item-text">
-                <h4><a href="http://pencidesign.com/soledad/soledad-magazine/what-its-like-to-travel-to-greece-right-now/" rel="bookmark" title="What It’s Like to Travel to Greece Right Now">What It’s Like to Travel to Greece Right Now</a></h4>
-                <span class="side-item-meta">September 7, 2015</span>
-            </div>
-        </div>
-    </li>
+        </li>
 
 
-    <li class="penci-feed">
-        <div class="side-item">
-            <div class="side-image">
-                <a href="http://pencidesign.com/soledad/soledad-magazine/canadian-rockies-rafting-near-banff-national-park/" rel="bookmark" title="Canadian Rockies Rafting near Banff National Park"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-585x390.jpg" class="side-item-thumb wp-post-image" alt="rafting-883523" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-1024x682.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-1170x780.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" /></a>
+        <li class="penci-feed">
+            <div class="side-item">
+                <div class="side-image">
+                    <a href="http://pencidesign.com/soledad/soledad-magazine/canadian-rockies-rafting-near-banff-national-park/" rel="bookmark" title="Canadian Rockies Rafting near Banff National Park"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-585x390.jpg" class="side-item-thumb wp-post-image" alt="rafting-883523" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-1024x682.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-1170x780.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" /></a>
+                </div>
+                <div class="side-item-text">
+                    <h4><a href="http://pencidesign.com/soledad/soledad-magazine/canadian-rockies-rafting-near-banff-national-park/" rel="bookmark" title="Canadian Rockies Rafting near Banff National Park">Canadian Rockies Rafting near Banff National Park</a></h4>
+                    <span class="side-item-meta">September 7, 2015</span>
+                </div>
             </div>
-            <div class="side-item-text">
-                <h4><a href="http://pencidesign.com/soledad/soledad-magazine/canadian-rockies-rafting-near-banff-national-park/" rel="bookmark" title="Canadian Rockies Rafting near Banff National Park">Canadian Rockies Rafting near Banff National Park</a></h4>
-                <span class="side-item-meta">September 7, 2015</span>
-            </div>
-        </div>
-    </li>
+        </li>
 
 
-</ul>
+    </ul>
 
 </aside><aside id="text-2" class="widget widget_text">			<div class="textwidget"><img src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/banner-widget.jpg" alt="banner"></div>
 </aside><aside id="penci_latest_tweets_widget-2" class="widget penci_latest_tweets_widget"><h4 class="widget-title penci-border-arrow"><span class="inner-arrow">Tweets</span></h4>			<div class="penci-tweets-widget-content">
-    <span class="icon-tweets"><i class="fa fa-twitter"></i></span>
-    <div class="penci-slider penci-tweets-slider" data-smooth="true" data-direction="horizontal" data-auto="true" data-dir="true" data-control="false" data-autotime="5000" data-speed="500">
-        <ul class="slides">
-            <li class="penci-tweet">
-                <div class="tweet-text">
-                    Soledad - the #Best #Blog &amp; #Magazine Theme version 2.2.4 is available for download at #Themeforest. Purchase now!
-                    https://t.co/o5VQloFse2								</div>
-                <p class="tweet-date">18-Jan-2016</p>
-                <div class="tweet-intents">
-                    <div class="tweet-intents-inner">
-                        <span><a target="_blank" class="reply" href="https://twitter.com/intent/tweet?in_reply_to=689062784991023104">Reply</a></span>
-                        <span><a target="_blank" class="retweet" href="https://twitter.com/intent/retweet?tweet_id=689062784991023104">Retweet</a></span>
-                        <span><a target="_blank" class="favorite" href="https://twitter.com/intent/favorite?tweet_id=689062784991023104">Favorite</a></span>
+        <span class="icon-tweets"><i class="fa fa-twitter"></i></span>
+        <div class="penci-slider penci-tweets-slider" data-smooth="true" data-direction="horizontal" data-auto="true" data-dir="true" data-control="false" data-autotime="5000" data-speed="500">
+            <ul class="slides">
+                <li class="penci-tweet">
+                    <div class="tweet-text">
+                        Soledad - the #Best #Blog &amp; #Magazine Theme version 2.2.4 is available for download at #Themeforest. Purchase now!
+                        https://t.co/o5VQloFse2								</div>
+                    <p class="tweet-date">18-Jan-2016</p>
+                    <div class="tweet-intents">
+                        <div class="tweet-intents-inner">
+                            <span><a target="_blank" class="reply" href="https://twitter.com/intent/tweet?in_reply_to=689062784991023104">Reply</a></span>
+                            <span><a target="_blank" class="retweet" href="https://twitter.com/intent/retweet?tweet_id=689062784991023104">Retweet</a></span>
+                            <span><a target="_blank" class="favorite" href="https://twitter.com/intent/favorite?tweet_id=689062784991023104">Favorite</a></span>
+                        </div>
                     </div>
-                </div>
-            </li>
-            <li class="penci-tweet">
-                <div class="tweet-text">
-                    Soledad - Best #Blog &amp; #Magazine #WordPress Theme version 2.2.2 is available now on #Themeforest. Purchase it now!
-                    https://t.co/nW4LYfAYGf								</div>
-                <p class="tweet-date">06-Jan-2016</p>
-                <div class="tweet-intents">
-                    <div class="tweet-intents-inner">
-                        <span><a target="_blank" class="reply" href="https://twitter.com/intent/tweet?in_reply_to=684582293881499655">Reply</a></span>
-                        <span><a target="_blank" class="retweet" href="https://twitter.com/intent/retweet?tweet_id=684582293881499655">Retweet</a></span>
-                        <span><a target="_blank" class="favorite" href="https://twitter.com/intent/favorite?tweet_id=684582293881499655">Favorite</a></span>
+                </li>
+                <li class="penci-tweet">
+                    <div class="tweet-text">
+                        Soledad - Best #Blog &amp; #Magazine #WordPress Theme version 2.2.2 is available now on #Themeforest. Purchase it now!
+                        https://t.co/nW4LYfAYGf								</div>
+                    <p class="tweet-date">06-Jan-2016</p>
+                    <div class="tweet-intents">
+                        <div class="tweet-intents-inner">
+                            <span><a target="_blank" class="reply" href="https://twitter.com/intent/tweet?in_reply_to=684582293881499655">Reply</a></span>
+                            <span><a target="_blank" class="retweet" href="https://twitter.com/intent/retweet?tweet_id=684582293881499655">Retweet</a></span>
+                            <span><a target="_blank" class="favorite" href="https://twitter.com/intent/favorite?tweet_id=684582293881499655">Favorite</a></span>
+                        </div>
                     </div>
-                </div>
-            </li>
-        </ul>
+                </li>
+            </ul>
+        </div>
     </div>
-</div>
 
 </aside><aside id="penci_latest_news_widget-3" class="widget penci_latest_news_widget"><h4 class="widget-title penci-border-arrow"><span class="inner-arrow">Recent Posts</span></h4>			<ul class="side-newsfeed">
 
 
-    <li class="penci-feed">
-        <div class="side-item">
+        <li class="penci-feed">
+            <div class="side-item">
 
-            <div class="side-image">
-                <a href="http://pencidesign.com/soledad/soledad-magazine/apple-haptic-tech-is-a-peak-at-the-ui-of-the-future/" rel="bookmark" title="Apple’s Haptic Tech Is a peak at the UI of the Future"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mac-585x390.jpg" class="side-item-thumb wp-post-image" alt="mac" /></a>
+                <div class="side-image">
+                    <a href="http://pencidesign.com/soledad/soledad-magazine/apple-haptic-tech-is-a-peak-at-the-ui-of-the-future/" rel="bookmark" title="Apple’s Haptic Tech Is a peak at the UI of the Future"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mac-585x390.jpg" class="side-item-thumb wp-post-image" alt="mac" /></a>
+                </div>
+                <div class="side-item-text">
+                    <h4><a href="http://pencidesign.com/soledad/soledad-magazine/apple-haptic-tech-is-a-peak-at-the-ui-of-the-future/" rel="bookmark" title="Apple’s Haptic Tech Is a peak at the UI of the Future">Apple’s Haptic Tech Is a peak at the UI of the Future</a></h4>
+                    <span class="side-item-meta">September 7, 2015</span>
+                </div>
             </div>
-            <div class="side-item-text">
-                <h4><a href="http://pencidesign.com/soledad/soledad-magazine/apple-haptic-tech-is-a-peak-at-the-ui-of-the-future/" rel="bookmark" title="Apple’s Haptic Tech Is a peak at the UI of the Future">Apple’s Haptic Tech Is a peak at the UI of the Future</a></h4>
-                <span class="side-item-meta">September 7, 2015</span>
+        </li>
+
+
+        <li class="penci-feed">
+            <div class="side-item">
+
+                <div class="side-image">
+                    <a href="http://pencidesign.com/soledad/soledad-magazine/furniture-makes-this-office-look-like-a-toy-box/" rel="bookmark" title="Furniture Makes This Office Look Like a Toy Box"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cab-585x390.jpg" class="side-item-thumb wp-post-image" alt="cab" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cab-1024x681.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cab-1170x778.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cab-585x389.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" /></a>
+                </div>
+                <div class="side-item-text">
+                    <h4><a href="http://pencidesign.com/soledad/soledad-magazine/furniture-makes-this-office-look-like-a-toy-box/" rel="bookmark" title="Furniture Makes This Office Look Like a Toy Box">Furniture Makes This Office Look Like a Toy Box</a></h4>
+                    <span class="side-item-meta">September 7, 2015</span>
+                </div>
             </div>
-        </div>
-    </li>
+        </li>
 
 
-    <li class="penci-feed">
-        <div class="side-item">
+        <li class="penci-feed">
+            <div class="side-item">
 
-            <div class="side-image">
-                <a href="http://pencidesign.com/soledad/soledad-magazine/furniture-makes-this-office-look-like-a-toy-box/" rel="bookmark" title="Furniture Makes This Office Look Like a Toy Box"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cab-585x390.jpg" class="side-item-thumb wp-post-image" alt="cab" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cab-1024x681.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cab-1170x778.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cab-585x389.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" /></a>
+                <div class="side-image">
+                    <a href="http://pencidesign.com/soledad/soledad-magazine/kermits-new-girlfriend-enrages-the-internet/" rel="bookmark" title="Kermit’s New Girlfriend Enrages the Internet"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/new-york-585x390.jpg" class="side-item-thumb wp-post-image" alt="new-york" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/new-york-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/new-york-1024x683.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/new-york-1170x780.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/new-york-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" /></a>
+                </div>
+                <div class="side-item-text">
+                    <h4><a href="http://pencidesign.com/soledad/soledad-magazine/kermits-new-girlfriend-enrages-the-internet/" rel="bookmark" title="Kermit’s New Girlfriend Enrages the Internet">Kermit’s New Girlfriend Enrages the Internet</a></h4>
+                    <span class="side-item-meta">September 7, 2015</span>
+                </div>
             </div>
-            <div class="side-item-text">
-                <h4><a href="http://pencidesign.com/soledad/soledad-magazine/furniture-makes-this-office-look-like-a-toy-box/" rel="bookmark" title="Furniture Makes This Office Look Like a Toy Box">Furniture Makes This Office Look Like a Toy Box</a></h4>
-                <span class="side-item-meta">September 7, 2015</span>
+        </li>
+
+
+        <li class="penci-feed">
+            <div class="side-item">
+
+                <div class="side-image">
+                    <a href="http://pencidesign.com/soledad/soledad-magazine/what-its-like-to-travel-to-greece-right-now/" rel="bookmark" title="What It’s Like to Travel to Greece Right Now"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/lagoon-585x390.jpg" class="side-item-thumb wp-post-image" alt="lagoon" /></a>
+                </div>
+                <div class="side-item-text">
+                    <h4><a href="http://pencidesign.com/soledad/soledad-magazine/what-its-like-to-travel-to-greece-right-now/" rel="bookmark" title="What It’s Like to Travel to Greece Right Now">What It’s Like to Travel to Greece Right Now</a></h4>
+                    <span class="side-item-meta">September 7, 2015</span>
+                </div>
             </div>
-        </div>
-    </li>
+        </li>
 
 
-    <li class="penci-feed">
-        <div class="side-item">
+        <li class="penci-feed">
+            <div class="side-item">
 
-            <div class="side-image">
-                <a href="http://pencidesign.com/soledad/soledad-magazine/kermits-new-girlfriend-enrages-the-internet/" rel="bookmark" title="Kermit’s New Girlfriend Enrages the Internet"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/new-york-585x390.jpg" class="side-item-thumb wp-post-image" alt="new-york" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/new-york-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/new-york-1024x683.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/new-york-1170x780.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/new-york-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" /></a>
+                <div class="side-image">
+                    <a href="http://pencidesign.com/soledad/soledad-magazine/canadian-rockies-rafting-near-banff-national-park/" rel="bookmark" title="Canadian Rockies Rafting near Banff National Park"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-585x390.jpg" class="side-item-thumb wp-post-image" alt="rafting-883523" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-1024x682.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-1170x780.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" /></a>
+                </div>
+                <div class="side-item-text">
+                    <h4><a href="http://pencidesign.com/soledad/soledad-magazine/canadian-rockies-rafting-near-banff-national-park/" rel="bookmark" title="Canadian Rockies Rafting near Banff National Park">Canadian Rockies Rafting near Banff National Park</a></h4>
+                    <span class="side-item-meta">September 7, 2015</span>
+                </div>
             </div>
-            <div class="side-item-text">
-                <h4><a href="http://pencidesign.com/soledad/soledad-magazine/kermits-new-girlfriend-enrages-the-internet/" rel="bookmark" title="Kermit’s New Girlfriend Enrages the Internet">Kermit’s New Girlfriend Enrages the Internet</a></h4>
-                <span class="side-item-meta">September 7, 2015</span>
-            </div>
-        </div>
-    </li>
+        </li>
 
 
-    <li class="penci-feed">
-        <div class="side-item">
-
-            <div class="side-image">
-                <a href="http://pencidesign.com/soledad/soledad-magazine/what-its-like-to-travel-to-greece-right-now/" rel="bookmark" title="What It’s Like to Travel to Greece Right Now"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/lagoon-585x390.jpg" class="side-item-thumb wp-post-image" alt="lagoon" /></a>
-            </div>
-            <div class="side-item-text">
-                <h4><a href="http://pencidesign.com/soledad/soledad-magazine/what-its-like-to-travel-to-greece-right-now/" rel="bookmark" title="What It’s Like to Travel to Greece Right Now">What It’s Like to Travel to Greece Right Now</a></h4>
-                <span class="side-item-meta">September 7, 2015</span>
-            </div>
-        </div>
-    </li>
-
-
-    <li class="penci-feed">
-        <div class="side-item">
-
-            <div class="side-image">
-                <a href="http://pencidesign.com/soledad/soledad-magazine/canadian-rockies-rafting-near-banff-national-park/" rel="bookmark" title="Canadian Rockies Rafting near Banff National Park"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-585x390.jpg" class="side-item-thumb wp-post-image" alt="rafting-883523" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-1024x682.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-1170x780.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" /></a>
-            </div>
-            <div class="side-item-text">
-                <h4><a href="http://pencidesign.com/soledad/soledad-magazine/canadian-rockies-rafting-near-banff-national-park/" rel="bookmark" title="Canadian Rockies Rafting near Banff National Park">Canadian Rockies Rafting near Banff National Park</a></h4>
-                <span class="side-item-meta">September 7, 2015</span>
-            </div>
-        </div>
-    </li>
-
-
-</ul>
+    </ul>
 
 </aside><aside id="categories-2" class="widget widget_categories"><h4 class="widget-title penci-border-arrow"><span class="inner-arrow">Categories</span></h4>		<ul>
-    <li class="cat-item cat-item-12"><a href="http://pencidesign.com/soledad/soledad-magazine/category/editors-pick/" >Editor&#039;s Pick</a>
-    </li>
-    <li class="cat-item cat-item-5"><a href="http://pencidesign.com/soledad/soledad-magazine/category/entertainment/" >Entertainment</a>
-    </li>
-    <li class="cat-item cat-item-75"><a href="http://pencidesign.com/soledad/soledad-magazine/category/life-style/" >Life Style</a>
-    </li>
-    <li class="cat-item cat-item-9"><a href="http://pencidesign.com/soledad/soledad-magazine/category/entertainment/movies/" >Movies</a>
-    </li>
-    <li class="cat-item cat-item-11"><a href="http://pencidesign.com/soledad/soledad-magazine/category/entertainment/music/" >Music</a>
-    </li>
-    <li class="cat-item cat-item-10"><a href="http://pencidesign.com/soledad/soledad-magazine/category/entertainment/sport/" >Sport</a>
-    </li>
-    <li class="cat-item cat-item-6"><a href="http://pencidesign.com/soledad/soledad-magazine/category/technology/" >Technology</a>
-    </li>
-    <li class="cat-item cat-item-7"><a href="http://pencidesign.com/soledad/soledad-magazine/category/travel/" >Travel</a>
-    </li>
-</ul>
+        <li class="cat-item cat-item-12"><a href="http://pencidesign.com/soledad/soledad-magazine/category/editors-pick/" >Editor&#039;s Pick</a>
+        </li>
+        <li class="cat-item cat-item-5"><a href="http://pencidesign.com/soledad/soledad-magazine/category/entertainment/" >Entertainment</a>
+        </li>
+        <li class="cat-item cat-item-75"><a href="http://pencidesign.com/soledad/soledad-magazine/category/life-style/" >Life Style</a>
+        </li>
+        <li class="cat-item cat-item-9"><a href="http://pencidesign.com/soledad/soledad-magazine/category/entertainment/movies/" >Movies</a>
+        </li>
+        <li class="cat-item cat-item-11"><a href="http://pencidesign.com/soledad/soledad-magazine/category/entertainment/music/" >Music</a>
+        </li>
+        <li class="cat-item cat-item-10"><a href="http://pencidesign.com/soledad/soledad-magazine/category/entertainment/sport/" >Sport</a>
+        </li>
+        <li class="cat-item cat-item-6"><a href="http://pencidesign.com/soledad/soledad-magazine/category/technology/" >Technology</a>
+        </li>
+        <li class="cat-item cat-item-7"><a href="http://pencidesign.com/soledad/soledad-magazine/category/travel/" >Travel</a>
+        </li>
+    </ul>
 </aside>	</div>
 </div>
 <!-- END CONTAINER -->
@@ -2396,42 +2182,42 @@
     <div class="container">
         <div class="footer-widget-wrapper">
             <aside id="text-3" class="widget widget_text"><h4 class="widget-title penci-border-arrow"><span class="inner-arrow">About</span></h4>			<div class="textwidget"><div class="penci-center"><img src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/logo-about.png" alt="banner"></div>
-                <br>
-                Lorem ipsum dolor sit amet, consectetuer adipiscinglit. Aenean commodo ligula eget dolor. Aenean massaore cum sociis natoque penatibus et magnis dis parturient.</div>
+                    <br>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscinglit. Aenean commodo ligula eget dolor. Aenean massaore cum sociis natoque penatibus et magnis dis parturient.</div>
             </aside>	</div>
         <div class="footer-widget-wrapper">
             <aside id="penci_latest_news_widget-2" class="widget penci_latest_news_widget"><h4 class="widget-title penci-border-arrow"><span class="inner-arrow">Entertainment Latest</span></h4>			<ul class="side-newsfeed">
 
 
-                <li class="penci-feed">
-                    <div class="side-item">
+                    <li class="penci-feed">
+                        <div class="side-item">
 
-                        <div class="side-image">
-                            <a href="http://pencidesign.com/soledad/soledad-magazine/kermits-new-girlfriend-enrages-the-internet/" rel="bookmark" title="Kermit’s New Girlfriend Enrages the Internet"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/new-york-585x390.jpg" class="side-item-thumb wp-post-image" alt="new-york" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/new-york-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/new-york-1024x683.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/new-york-1170x780.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/new-york-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" /></a>
+                            <div class="side-image">
+                                <a href="http://pencidesign.com/soledad/soledad-magazine/kermits-new-girlfriend-enrages-the-internet/" rel="bookmark" title="Kermit’s New Girlfriend Enrages the Internet"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/new-york-585x390.jpg" class="side-item-thumb wp-post-image" alt="new-york" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/new-york-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/new-york-1024x683.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/new-york-1170x780.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/new-york-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" /></a>
+                            </div>
+                            <div class="side-item-text">
+                                <h4><a href="http://pencidesign.com/soledad/soledad-magazine/kermits-new-girlfriend-enrages-the-internet/" rel="bookmark" title="Kermit’s New Girlfriend Enrages the Internet">Kermit’s New Girlfriend Enrages the Internet</a></h4>
+                                <span class="side-item-meta">September 7, 2015</span>
+                            </div>
                         </div>
-                        <div class="side-item-text">
-                            <h4><a href="http://pencidesign.com/soledad/soledad-magazine/kermits-new-girlfriend-enrages-the-internet/" rel="bookmark" title="Kermit’s New Girlfriend Enrages the Internet">Kermit’s New Girlfriend Enrages the Internet</a></h4>
-                            <span class="side-item-meta">September 7, 2015</span>
+                    </li>
+
+
+                    <li class="penci-feed">
+                        <div class="side-item">
+
+                            <div class="side-image">
+                                <a href="http://pencidesign.com/soledad/soledad-magazine/canadian-rockies-rafting-near-banff-national-park/" rel="bookmark" title="Canadian Rockies Rafting near Banff National Park"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-585x390.jpg" class="side-item-thumb wp-post-image" alt="rafting-883523" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-1024x682.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-1170x780.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" /></a>
+                            </div>
+                            <div class="side-item-text">
+                                <h4><a href="http://pencidesign.com/soledad/soledad-magazine/canadian-rockies-rafting-near-banff-national-park/" rel="bookmark" title="Canadian Rockies Rafting near Banff National Park">Canadian Rockies Rafting near Banff National Park</a></h4>
+                                <span class="side-item-meta">September 7, 2015</span>
+                            </div>
                         </div>
-                    </div>
-                </li>
+                    </li>
 
 
-                <li class="penci-feed">
-                    <div class="side-item">
-
-                        <div class="side-image">
-                            <a href="http://pencidesign.com/soledad/soledad-magazine/canadian-rockies-rafting-near-banff-national-park/" rel="bookmark" title="Canadian Rockies Rafting near Banff National Park"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-585x390.jpg" class="side-item-thumb wp-post-image" alt="rafting-883523" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-1024x682.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-1170x780.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" /></a>
-                        </div>
-                        <div class="side-item-text">
-                            <h4><a href="http://pencidesign.com/soledad/soledad-magazine/canadian-rockies-rafting-near-banff-national-park/" rel="bookmark" title="Canadian Rockies Rafting near Banff National Park">Canadian Rockies Rafting near Banff National Park</a></h4>
-                            <span class="side-item-meta">September 7, 2015</span>
-                        </div>
-                    </div>
-                </li>
-
-
-            </ul>
+                </ul>
 
             </aside>	</div>
         <div class="footer-widget-wrapper last">
@@ -2541,55 +2327,7 @@
     } );
 </script>
 
-<div id="fb-root"></div>
-<script type='text/javascript' src='http://pencidesign.com/soledad/soledad-magazine/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
-<script type='text/javascript'>
-    /* <![CDATA[ */
-    var _wpcf7 = {"loaderUrl":"http:\/\/pencidesign.com\/soledad\/soledad-magazine\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptchaEmpty":"Please verify that you are not a robot.","sending":"Sending ...","cached":"1"};
-    /* ]]> */
-</script>
-<script type='text/javascript' src='http://pencidesign.com/soledad/soledad-magazine/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.4'></script>
-<script type='text/javascript' src='http://pencidesign.com/soledad/soledad-magazine/wp-content/themes/soledad/js/libs-script.min.js?ver=2.4'></script>
-<script type='text/javascript' src='http://pencidesign.com/soledad/soledad-magazine/wp-content/themes/soledad/js/smoothscroll.js?ver=1.0'></script>
-<script type='text/javascript' src='http://pencidesign.com/soledad/soledad-magazine/wp-content/themes/soledad/js/main.js?ver=2.4'></script>
-<script type='text/javascript'>
-    /* <![CDATA[ */
-    var ajax_var = {"url":"http:\/\/pencidesign.com\/soledad\/soledad-magazine\/wp-admin\/admin-ajax.php","nonce":"29a5495f31"};
-    /* ]]> */
-</script>
-<script type='text/javascript' src='http://pencidesign.com/soledad/soledad-magazine/wp-content/themes/soledad/js/post-like.js?ver=2.4'></script>
-<script type='text/javascript' src='http://pencidesign.com/soledad/soledad-magazine/wp-includes/js/wp-embed.min.js?ver=4.4.2'></script>
-<script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-67825190-1', 'auto');
-    ga('send', 'pageview');
-
-</script>
-<script type="text/javascript">
-    /* <![CDATA[ */
-    var google_conversion_id = 956356332;
-    var google_custom_params = window.google_tag_params;
-    var google_remarketing_only = true;
-    /* ]]> */
-</script>
-<div style="display:none">
-    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
-    </script>
-</div>
-<noscript>
-    <div style="display:inline;">
-        <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/956356332/?value=0&amp;guid=ON&amp;script=0"/>
-    </div>
-</noscript>
+<?php wp_footer();?>
 </body>
 </html>
-<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
-
-Page Caching using disk: enhanced (Requested URI contains query)
-Database Caching 26/194 queries in 0.108 seconds using disk
-
- Served from: pencidesign.com @ 2016-03-22 07:37:33 by W3 Total Cache -->
