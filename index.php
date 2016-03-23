@@ -1,106 +1,7 @@
 
 <?php  get_header();?>
 
-<div class="featured-area style-1">
-    <div class="featured-carousel style-1" data-auto="true" data-autotime="6000" data-speed="800">
-        <figure class="item">
-            <div class="featured-overlay featured-overlay-color"></div>
-            <div class="featured-overlay featured-overlay-partent"></div>
-            <img width="1170" height="663" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/save-time-1170x663.jpg" class="attachment-penci-slider-thumb size-penci-slider-thumb wp-post-image" alt="save-time" />									<div class="featured-content">
-                <div class="feat-text">
-                    <div class="featured-slider-overlay"></div>
-                    <span class="feat-time">Sep 7, 2015</span>
-                    <div class="featured-cat"><a class="penci-cat-name" href="http://pencidesign.com/soledad/soledad-magazine/category/editors-pick/" title="View all posts in Editor&#039;s Pick" >Editor's Pick</a><a class="penci-cat-name" href="http://pencidesign.com/soledad/soledad-magazine/category/entertainment/" title="View all posts in Entertainment" >Entertainment</a></div>
-                    <h3><a href="http://pencidesign.com/soledad/soledad-magazine/10-efficient-ways-to-save-time-in-daily-life/">10 Efficient Ways to Save Time in Daily Life</a></h3>
-                    <div class="carousel-meta">
-                        <span class="feat-author">by <a href="http://pencidesign.com/soledad/soledad-magazine/author/magazine/">Richard Roe</a></span>
-                        <span class="feat-comments"><a href="http://pencidesign.com/soledad/soledad-magazine/10-efficient-ways-to-save-time-in-daily-life/#comments ">3 comments</a></span>
-                    </div>
-                </div>
-            </div>
-        </figure>
-        <figure class="item">
-            <div class="featured-overlay featured-overlay-color"></div>
-            <div class="featured-overlay featured-overlay-partent"></div>
-            <img width="1170" height="663" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/smart-watch-1170x663.jpg" class="attachment-penci-slider-thumb size-penci-slider-thumb wp-post-image" alt="This is an image caption" />									<div class="featured-content">
-                <div class="feat-text">
-                    <div class="featured-slider-overlay"></div>
-                    <span class="feat-time">Sep 7, 2015</span>
-                    <div class="featured-cat"><a class="penci-cat-name" href="http://pencidesign.com/soledad/soledad-magazine/category/editors-pick/" title="View all posts in Editor&#039;s Pick" >Editor's Pick</a><a class="penci-cat-name" href="http://pencidesign.com/soledad/soledad-magazine/category/technology/" title="View all posts in Technology" >Technology</a></div>
-                    <h3><a href="http://pencidesign.com/soledad/soledad-magazine/apple-watch-vs-moto-360-which-one-should-you-buy-video/">Apple Watch vs Moto 360: Which one should you buy?</a></h3>
-                    <div class="carousel-meta">
-                        <span class="feat-author">by <a href="http://pencidesign.com/soledad/soledad-magazine/author/magazine1/">Isaac Taylor</a></span>
-                        <span class="feat-comments"><a href="http://pencidesign.com/soledad/soledad-magazine/apple-watch-vs-moto-360-which-one-should-you-buy-video/#comments ">3 comments</a></span>
-                    </div>
-                </div>
-            </div>
-        </figure>
-        <figure class="item">
-            <div class="featured-overlay featured-overlay-color"></div>
-            <div class="featured-overlay featured-overlay-partent"></div>
-            <img width="1170" height="663" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/car2-1170x663.jpg" class="attachment-penci-slider-thumb size-penci-slider-thumb wp-post-image" alt="car2" />									<div class="featured-content">
-                <div class="feat-text">
-                    <div class="featured-slider-overlay"></div>
-                    <span class="feat-time">Sep 7, 2015</span>
-                    <div class="featured-cat"><a class="penci-cat-name" href="http://pencidesign.com/soledad/soledad-magazine/category/editors-pick/" title="View all posts in Editor&#039;s Pick" >Editor's Pick</a><a class="penci-cat-name" href="http://pencidesign.com/soledad/soledad-magazine/category/entertainment/movies/" title="View all posts in Movies" >Movies</a></div>
-                    <h3><a href="http://pencidesign.com/soledad/soledad-magazine/box-office-transporter-refueled-crashes-theater/">Box Office: &#8216;Transporter Refueled&#8217; Crashes Theater</a></h3>
-                    <div class="carousel-meta">
-                        <span class="feat-author">by <a href="http://pencidesign.com/soledad/soledad-magazine/author/magazine/">Richard Roe</a></span>
-                        <span class="feat-comments"><a href="http://pencidesign.com/soledad/soledad-magazine/box-office-transporter-refueled-crashes-theater/#comments ">3 comments</a></span>
-                    </div>
-                </div>
-            </div>
-        </figure>
-        <figure class="item">
-            <div class="featured-overlay featured-overlay-color"></div>
-            <div class="featured-overlay featured-overlay-partent"></div>
-            <img width="1170" height="663" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cruise-1170x663.jpg" class="attachment-penci-slider-thumb size-penci-slider-thumb wp-post-image" alt="cruise" />									<div class="featured-content">
-                <div class="feat-text">
-                    <div class="featured-slider-overlay"></div>
-                    <span class="feat-time">Sep 7, 2015</span>
-                    <div class="featured-cat"><a class="penci-cat-name" href="http://pencidesign.com/soledad/soledad-magazine/category/editors-pick/" title="View all posts in Editor&#039;s Pick" >Editor's Pick</a><a class="penci-cat-name" href="http://pencidesign.com/soledad/soledad-magazine/category/travel/" title="View all posts in Travel" >Travel</a></div>
-                    <h3><a href="http://pencidesign.com/soledad/soledad-magazine/time-cruise-mediterranean/">The Best Time to Cruise the Mediterranean</a></h3>
-                    <div class="carousel-meta">
-                        <span class="feat-author">by <a href="http://pencidesign.com/soledad/soledad-magazine/author/magazine/">Richard Roe</a></span>
-                        <span class="feat-comments"><a href="http://pencidesign.com/soledad/soledad-magazine/time-cruise-mediterranean/#comments ">3 comments</a></span>
-                    </div>
-                </div>
-            </div>
-        </figure>
-        <figure class="item">
-            <div class="featured-overlay featured-overlay-color"></div>
-            <div class="featured-overlay featured-overlay-partent"></div>
-            <img width="1170" height="663" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/iphone-1170x663.jpg" class="attachment-penci-slider-thumb size-penci-slider-thumb wp-post-image" alt="iphone" />									<div class="featured-content">
-                <div class="feat-text">
-                    <div class="featured-slider-overlay"></div>
-                    <span class="feat-time">Sep 7, 2015</span>
-                    <div class="featured-cat"><a class="penci-cat-name" href="http://pencidesign.com/soledad/soledad-magazine/category/editors-pick/" title="View all posts in Editor&#039;s Pick" >Editor's Pick</a><a class="penci-cat-name" href="http://pencidesign.com/soledad/soledad-magazine/category/technology/" title="View all posts in Technology" >Technology</a></div>
-                    <h3><a href="http://pencidesign.com/soledad/soledad-magazine/iphone-6s-launch-and-expectations/">iPhone 6S Launch: What To Expect?</a></h3>
-                    <div class="carousel-meta">
-                        <span class="feat-author">by <a href="http://pencidesign.com/soledad/soledad-magazine/author/magazine/">Richard Roe</a></span>
-                        <span class="feat-comments"><a href="http://pencidesign.com/soledad/soledad-magazine/iphone-6s-launch-and-expectations/#comments ">3 comments</a></span>
-                    </div>
-                </div>
-            </div>
-        </figure>
-        <figure class="item">
-            <div class="featured-overlay featured-overlay-color"></div>
-            <div class="featured-overlay featured-overlay-partent"></div>
-            <img width="1170" height="663" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/photographer-1170x663.jpg" class="attachment-penci-slider-thumb size-penci-slider-thumb wp-post-image" alt="photographer" />									<div class="featured-content">
-                <div class="feat-text">
-                    <div class="featured-slider-overlay"></div>
-                    <span class="feat-time">Sep 7, 2015</span>
-                    <div class="featured-cat"><a class="penci-cat-name" href="http://pencidesign.com/soledad/soledad-magazine/category/editors-pick/" title="View all posts in Editor&#039;s Pick" >Editor's Pick</a><a class="penci-cat-name" href="http://pencidesign.com/soledad/soledad-magazine/category/entertainment/" title="View all posts in Entertainment" >Entertainment</a></div>
-                    <h3><a href="http://pencidesign.com/soledad/soledad-magazine/the-street-child-who-became-a-top-photographer/">The street child who became a top photographer</a></h3>
-                    <div class="carousel-meta">
-                        <span class="feat-author">by <a href="http://pencidesign.com/soledad/soledad-magazine/author/magazine/">Richard Roe</a></span>
-                        <span class="feat-comments"><a href="http://pencidesign.com/soledad/soledad-magazine/the-street-child-who-became-a-top-photographer/#comments ">3 comments</a></span>
-                    </div>
-                </div>
-            </div>
-        </figure>
-    </div>
-</div>
+<?php get_template_part("focus"); ?>
 
 <div class="container penci_sidebar right-sidebar">
 <div id="main" class="penci-layout-magazine-1 penci-main-sticky-sidebar">
@@ -954,24 +855,19 @@
 
     </ul>
 
-</aside><aside id="categories-2" class="widget widget_categories"><h4 class="widget-title penci-border-arrow"><span class="inner-arrow">Categories</span></h4>		<ul>
-        <li class="cat-item cat-item-12"><a href="http://pencidesign.com/soledad/soledad-magazine/category/editors-pick/" >Editor&#039;s Pick</a>
-        </li>
-        <li class="cat-item cat-item-5"><a href="http://pencidesign.com/soledad/soledad-magazine/category/entertainment/" >Entertainment</a>
-        </li>
-        <li class="cat-item cat-item-75"><a href="http://pencidesign.com/soledad/soledad-magazine/category/life-style/" >Life Style</a>
-        </li>
-        <li class="cat-item cat-item-9"><a href="http://pencidesign.com/soledad/soledad-magazine/category/entertainment/movies/" >Movies</a>
-        </li>
-        <li class="cat-item cat-item-11"><a href="http://pencidesign.com/soledad/soledad-magazine/category/entertainment/music/" >Music</a>
-        </li>
-        <li class="cat-item cat-item-10"><a href="http://pencidesign.com/soledad/soledad-magazine/category/entertainment/sport/" >Sport</a>
-        </li>
-        <li class="cat-item cat-item-6"><a href="http://pencidesign.com/soledad/soledad-magazine/category/technology/" >Technology</a>
-        </li>
-        <li class="cat-item cat-item-7"><a href="http://pencidesign.com/soledad/soledad-magazine/category/travel/" >Travel</a>
-        </li>
+</aside>
+<aside id="categories-2" class="widget widget_categories"><h4 class="widget-title penci-border-arrow"><span class="inner-arrow">主题分类</span></h4>
+    <ul>
+        <?php
+        $cat = get_category_by_slug('wpfree');
+        wp_list_categories(array(
+            'title_li'=>0,
+            'hide_empty' => 0,
+            'child_of' => $cat ->term_id,
+        ));?>
+        <?php get_terms('wpfree');?>
     </ul>
+
 </aside>	</div>
 </div>
 <!-- END CONTAINER -->
