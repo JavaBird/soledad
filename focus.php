@@ -17,8 +17,11 @@
                     'suppress_filters' => true
                 ));
 
+
+
           foreach($lists as $list){
 
+                the_post();
 
         ?>
 
@@ -26,15 +29,15 @@
         <figure class="item">
             <div class="featured-overlay featured-overlay-color"></div>
             <div class="featured-overlay featured-overlay-partent"></div>
-            <img width="1170" height="663" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/save-time-1170x663.jpg" class="attachment-penci-slider-thumb size-penci-slider-thumb wp-post-image" alt="save-time" />									<div class="featured-content">
+            <img width="1170" height="663" src="<?php the_post_thumbnail_url();?>" class="attachment-penci-slider-thumb size-penci-slider-thumb wp-post-image" alt="<?php  the_title();?>" />									<div class="featured-content">
                 <div class="feat-text">
                     <div class="featured-slider-overlay"></div>
-                    <span class="feat-time"><?php echo $list ->post_date;?></span>
-                    <div class="featured-cat"><a class="penci-cat-name" href="http://pencidesign.com/soledad/soledad-magazine/category/editors-pick/" title="View all posts in Editor&#039;s Pick" >Editor's Pick</a><a class="penci-cat-name" href="http://pencidesign.com/soledad/soledad-magazine/category/entertainment/" title="View all posts in Entertainment" >Entertainment</a></div>
-                    <h3><a href="http://pencidesign.com/soledad/soledad-magazine/10-efficient-ways-to-save-time-in-daily-life/"><?php echo $list ->post_title;?></a></h3>
+                    <span class="feat-time"><?php the_time('Y-m-d');?></span>
+                    <div class="featured-cat"><a class="penci-cat-name" href="" title="View all posts in Editor&#039;s Pick" >Editor's Pick</a><a class="penci-cat-name" href="" title="View all posts in Entertainment" >Entertainment</a></div>
+                    <h3><a href="<?php the_permalink();?>"><?php  the_title();?></a></h3>
                     <div class="carousel-meta">
-                        <span class="feat-author">作者：<a href="http://pencidesign.com/soledad/soledad-magazine/author/magazine/"><?php echo get_userdata($list->post_author) -> display_name; ?></a></span>
-                        <span class="feat-comments"><a href="http://pencidesign.com/soledad/soledad-magazine/10-efficient-ways-to-save-time-in-daily-life/#comments "><?php echo  $list->comment_count; ?> 评论</a></span>
+                        <span class="feat-author">作者：<a href="<?php the_author_link();?>"><?php the_author(); ?></a></span>
+                        <span class="feat-comments"><a href="<?php comments_link();?>"><?php echo  get_comments_number(); ?> 评论</a></span>
                     </div>
                 </div>
             </div>
