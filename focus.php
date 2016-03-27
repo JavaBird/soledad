@@ -33,7 +33,10 @@
                 <div class="feat-text">
                     <div class="featured-slider-overlay"></div>
                     <span class="feat-time"><?php the_time('Y-m-d');?></span>
-                    <div class="featured-cat"><a class="penci-cat-name" href="" title="View all posts in Editor&#039;s Pick" >Editor's Pick</a><a class="penci-cat-name" href="" title="View all posts in Entertainment" >Entertainment</a></div>
+                    <div class="featured-cat">
+                        <?php the_category(' ');?>
+                        <!--<a class="penci-cat-name" href="" title="View all posts in Editor&#039;s Pick" >Editor's Pick</a><a class="penci-cat-name" href="" title="View all posts in Entertainment" >Entertainment</a>-->
+                    </div>
                     <h3><a href="<?php the_permalink();?>"><?php  the_title();?></a></h3>
                     <div class="carousel-meta">
                         <span class="feat-author">作者：<a href="<?php the_author_link();?>"><?php the_author(); ?></a></span>

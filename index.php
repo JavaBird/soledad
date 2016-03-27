@@ -9,10 +9,25 @@
 
 <section class="home-featured-cat mag-cat-style-1">
     <div class="penci-border-arrow penci-homepage-title penci-magazine-title">
-        <h3 class="inner-arrow"><a href="http://pencidesign.com/soledad/soledad-magazine/category/travel/">Travel</a></h3>
+        <?php
+                    $blog_cat =  get_category_by_slug('blog');
+
+        ?>
+        <h3 class="inner-arrow"><a href="<?php echo get_category_link($blog_cat);?>"><?php echo $blog_cat -> name;?></a></h3>
     </div>
     <div class="home-featured-cat-content style-1">
-        <div class="cat-left"><div class="mag-post-box first-post">
+
+        <?php print_r($blog_cat);
+
+
+
+
+        ?>
+
+
+
+        <div class="cat-left">
+            <div class="mag-post-box first-post">
                 <div class="magcat-thumb">
                     <a href="http://pencidesign.com/soledad/soledad-magazine/what-its-like-to-travel-to-greece-right-now/"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/lagoon-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="lagoon" /></a>
                 </div>
@@ -27,7 +42,9 @@
                     </div>
                 </div>
             </div>
-        </div><div class="cat-right"><div class="mag-post-box">
+        </div>
+        <div class="cat-right">
+            <div class="mag-post-box">
                 <div class="magcat-thumb">
                     <a href="http://pencidesign.com/soledad/soledad-magazine/5-places-to-visit-in-your-lifetime/"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="mountains" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains-1024x683.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" /></a>
                 </div>
