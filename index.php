@@ -17,78 +17,85 @@
     </div>
     <div class="home-featured-cat-content style-1">
 
-        <?php print_r($blog_cat);
+        <?php
+
+            query_posts("cat=".$blog_cat->term_id."&order=desc&showposts=1");
+
+            while(have_posts()) {
+
+                the_post();
 
 
 
+                ?>
+
+                <div class="cat-left">
+                    <div class="mag-post-box first-post">
+                        <div class="magcat-thumb">
+                            <a href="<?php the_permalink(); ?>"><img
+                                    width="585" height="390"
+                                    src="<?php the_post_thumbnail_url();?>"
+                                    class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="<?php the_title();?>"/></a>
+                        </div>
+                        <div class="magcat-detail">
+                            <div class="mag-header"><h3 class="magcat-titlte"><a
+                                        href="<?php the_permalink(); ?>"><?php the_title();?></a></h3>
+
+                                <div class="grid-post-box-meta mag-meta">
+                                <span class="author-italic">by <a
+                                        href="<?php the_author_link();?>"><?php the_author();?></a></span>
+                                    <span><i class="fa fa-calendar fa-fw"></i> <?php the_time('Y年m月d日');?></span>
+                                </div>
+                            </div>
+                            <div class="mag-excerpt">
+                                <p><?php the_excerpt();?></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <?php
+
+            }
+
+          wp_reset_query();
 
         ?>
-
-
-
-        <div class="cat-left">
-            <div class="mag-post-box first-post">
-                <div class="magcat-thumb">
-                    <a href="http://pencidesign.com/soledad/soledad-magazine/what-its-like-to-travel-to-greece-right-now/"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/lagoon-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="lagoon" /></a>
-                </div>
-                <div class="magcat-detail">
-                    <div class="mag-header">		<h3 class="magcat-titlte"><a href="http://pencidesign.com/soledad/soledad-magazine/what-its-like-to-travel-to-greece-right-now/">What It’s Like to Travel to Greece Right Now</a></h3>
-                        <div class="grid-post-box-meta mag-meta">
-                            <span class="author-italic">by <a href="http://pencidesign.com/soledad/soledad-magazine/author/magazine1/">Isaac Taylor</a></span>
-                            <span>September 7, 2015</span>
-                        </div>
-                    </div>					<div class="mag-excerpt">
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cumt sociis natoque penatibus et magnis dis&hellip;</p>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="cat-right">
+
+            <?php
+            query_posts("cat=".$blog_cat->term_id."&order=desc&showposts=4&offset=1");
+
+                while(have_posts()){
+                    the_post();
+            ?>
+
             <div class="mag-post-box">
                 <div class="magcat-thumb">
-                    <a href="http://pencidesign.com/soledad/soledad-magazine/5-places-to-visit-in-your-lifetime/"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="mountains" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains-1024x683.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" /></a>
+                    <a href="<?php the_permalink();?>"><img
+                            width="585" height="390"
+                            src="<?php the_post_thumbnail_url();?>"
+                            class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="<?php the_title();?>"
+                           /></a>
                 </div>
                 <div class="magcat-detail">
-                    <h3 class="magcat-titlte"><a href="http://pencidesign.com/soledad/soledad-magazine/5-places-to-visit-in-your-lifetime/">5 Places to visit in your Lifetime</a></h3>
+                    <h3 class="magcat-titlte"><a
+                            href="<?php the_permalink();?>"><?php the_title();?></a></h3>
+
                     <div class="grid-post-box-meta mag-meta">
-                        <span>September 7, 2015</span>
+                        <span><i class="fa fa-calendar fa-fw"></i> <?php the_time("Y/m/d");?></span>
+                        <span><i class="fa fa-comments"></i><?php get_comments_number();?> 评论</span>
                     </div>
+
                 </div>
             </div>
-            <div class="mag-post-box">
-                <div class="magcat-thumb">
-                    <a href="http://pencidesign.com/soledad/soledad-magazine/time-cruise-mediterranean/"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cruise-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="cruise" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cruise-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cruise-1024x683.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cruise-1170x781.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cruise-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" /></a>
-                </div>
-                <div class="magcat-detail">
-                    <h3 class="magcat-titlte"><a href="http://pencidesign.com/soledad/soledad-magazine/time-cruise-mediterranean/">The Best Time to Cruise the Mediterranean</a></h3>
-                    <div class="grid-post-box-meta mag-meta">
-                        <span>September 7, 2015</span>
-                    </div>
-                </div>
-            </div>
-            <div class="mag-post-box">
-                <div class="magcat-thumb">
-                    <a href="http://pencidesign.com/soledad/soledad-magazine/taj-mahal-world-s-most-photographed-monument/"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/india-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="india" /></a>
-                </div>
-                <div class="magcat-detail">
-                    <h3 class="magcat-titlte"><a href="http://pencidesign.com/soledad/soledad-magazine/taj-mahal-world-s-most-photographed-monument/">Taj Mahal world&#8217;s most photographed monument?</a></h3>
-                    <div class="grid-post-box-meta mag-meta">
-                        <span>September 7, 2015</span>
-                    </div>
-                </div>
-            </div>
-            <div class="mag-post-box">
-                <div class="magcat-thumb">
-                    <a href="http://pencidesign.com/soledad/soledad-magazine/10-tips-to-visit-greece-in-autumn/"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/greece-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="greece" /></a>
-                </div>
-                <div class="magcat-detail">
-                    <h3 class="magcat-titlte"><a href="http://pencidesign.com/soledad/soledad-magazine/10-tips-to-visit-greece-in-autumn/">10 Tips to visit Greece in Autumn</a></h3>
-                    <div class="grid-post-box-meta mag-meta">
-                        <span>September 7, 2015</span>
-                    </div>
-                </div>
-            </div>
-        </div>												</div>
+
+            <?php
+
+            }
+            wp_reset_query();
+            ?>
+        </div>
+    </div>
 
 
 </section>
