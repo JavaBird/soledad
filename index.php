@@ -177,7 +177,7 @@
                 <li class="mag-single-slider">
                     <div class="magcat-thumb">
                         <a href="<?php the_permalink();?>" class="mag-single-slider-overlay"></a>
-                        <a href="http://pencidesign.com/soledad/soledad-magazine/10-efficient-ways-to-save-time-in-daily-life/"><img width="1170" height="663" src="<?php the_post_thumbnail_url();?>" class="attachment-penci-slider-thumb size-penci-slider-thumb wp-post-image" alt="This is an image caption" /></a>
+                        <a href="<?php the_permalink();?>"><img width="1170" height="663" src="<?php the_post_thumbnail_url();?>" class="attachment-penci-slider-thumb size-penci-slider-thumb wp-post-image" alt="This is an image caption" /></a>
                         <div class="magcat-detail">
                             <h3 class="magcat-titlte"><a href="<?php the_permalink();?>"><?php the_title();?></a></h3>
                             <div class="grid-post-box-meta mag-meta">
@@ -194,71 +194,7 @@
 
                 ?>
 
-                <li class="mag-single-slider">
-                    <div class="magcat-thumb">
-                        <a href="http://pencidesign.com/soledad/soledad-magazine/apple-watch-vs-moto-360-which-one-should-you-buy-video/" class="mag-single-slider-overlay"></a>
-                        <a href="http://pencidesign.com/soledad/soledad-magazine/apple-watch-vs-moto-360-which-one-should-you-buy-video/"><img width="1170" height="663" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/smart-watch-1170x663.jpg" class="attachment-penci-slider-thumb size-penci-slider-thumb wp-post-image" alt="This is an image caption" /></a>
-                        <div class="magcat-detail">
-                            <h3 class="magcat-titlte"><a href="http://pencidesign.com/soledad/soledad-magazine/apple-watch-vs-moto-360-which-one-should-you-buy-video/">Apple Watch vs Moto 360: Which one should you buy?</a></h3>
-                            <div class="grid-post-box-meta mag-meta">
-                                <span><a href="http://pencidesign.com/soledad/soledad-magazine/author/magazine1/">Isaac Taylor</a></span>
-                                <span>September 7, 2015</span>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="mag-single-slider">
-                    <div class="magcat-thumb">
-                        <a href="http://pencidesign.com/soledad/soledad-magazine/box-office-transporter-refueled-crashes-theater/" class="mag-single-slider-overlay"></a>
-                        <a href="http://pencidesign.com/soledad/soledad-magazine/box-office-transporter-refueled-crashes-theater/"><img width="1170" height="663" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/car2-1170x663.jpg" class="attachment-penci-slider-thumb size-penci-slider-thumb wp-post-image" alt="car2" /></a>
-                        <div class="magcat-detail">
-                            <h3 class="magcat-titlte"><a href="http://pencidesign.com/soledad/soledad-magazine/box-office-transporter-refueled-crashes-theater/">Box Office: &#8216;Transporter Refueled&#8217; Crashes Theater</a></h3>
-                            <div class="grid-post-box-meta mag-meta">
-                                <span><a href="http://pencidesign.com/soledad/soledad-magazine/author/magazine/">Richard Roe</a></span>
-                                <span>September 7, 2015</span>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="mag-single-slider">
-                    <div class="magcat-thumb">
-                        <a href="http://pencidesign.com/soledad/soledad-magazine/time-cruise-mediterranean/" class="mag-single-slider-overlay"></a>
-                        <a href="http://pencidesign.com/soledad/soledad-magazine/time-cruise-mediterranean/"><img width="1170" height="663" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cruise-1170x663.jpg" class="attachment-penci-slider-thumb size-penci-slider-thumb wp-post-image" alt="cruise" /></a>
-                        <div class="magcat-detail">
-                            <h3 class="magcat-titlte"><a href="http://pencidesign.com/soledad/soledad-magazine/time-cruise-mediterranean/">The Best Time to Cruise the Mediterranean</a></h3>
-                            <div class="grid-post-box-meta mag-meta">
-                                <span><a href="http://pencidesign.com/soledad/soledad-magazine/author/magazine/">Richard Roe</a></span>
-                                <span>September 7, 2015</span>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="mag-single-slider">
-                    <div class="magcat-thumb">
-                        <a href="http://pencidesign.com/soledad/soledad-magazine/iphone-6s-launch-and-expectations/" class="mag-single-slider-overlay"></a>
-                        <a href="http://pencidesign.com/soledad/soledad-magazine/iphone-6s-launch-and-expectations/"><img width="1170" height="663" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/iphone-1170x663.jpg" class="attachment-penci-slider-thumb size-penci-slider-thumb wp-post-image" alt="iphone" /></a>
-                        <div class="magcat-detail">
-                            <h3 class="magcat-titlte"><a href="http://pencidesign.com/soledad/soledad-magazine/iphone-6s-launch-and-expectations/">iPhone 6S Launch: What To Expect?</a></h3>
-                            <div class="grid-post-box-meta mag-meta">
-                                <span><a href="http://pencidesign.com/soledad/soledad-magazine/author/magazine/">Richard Roe</a></span>
-                                <span>September 7, 2015</span>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="mag-single-slider">
-                    <div class="magcat-thumb">
-                        <a href="http://pencidesign.com/soledad/soledad-magazine/the-street-child-who-became-a-top-photographer/" class="mag-single-slider-overlay"></a>
-                        <a href="http://pencidesign.com/soledad/soledad-magazine/the-street-child-who-became-a-top-photographer/"><img width="1170" height="663" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/photographer-1170x663.jpg" class="attachment-penci-slider-thumb size-penci-slider-thumb wp-post-image" alt="photographer" /></a>
-                        <div class="magcat-detail">
-                            <h3 class="magcat-titlte"><a href="http://pencidesign.com/soledad/soledad-magazine/the-street-child-who-became-a-top-photographer/">The street child who became a top photographer</a></h3>
-                            <div class="grid-post-box-meta mag-meta">
-                                <span><a href="http://pencidesign.com/soledad/soledad-magazine/author/magazine/">Richard Roe</a></span>
-                                <span>September 7, 2015</span>
-                            </div>
-                        </div>
-                    </div>
-                </li>														</ul>
+               													</ul>
         </div>
     </div>
 
@@ -266,9 +202,22 @@
 </section>
 <div class="home-featured-cat mag-cat-style-2">
     <div class="penci-border-arrow penci-homepage-title penci-magazine-title">
-        <h3 class="inner-arrow"><a href="http://pencidesign.com/soledad/soledad-magazine/category/technology/">Technology</a></h3>
+        <?php
+            $gw = get_category_by_slug("gw");
+
+        ?>
+        <h3 class="inner-arrow"><a href="<?php echo get_category_link($gw);?>"><?php echo $gw->name;?></a></h3>
     </div>
     <div class="home-featured-cat-content style-2">
+
+         <?php
+
+            query_posts("cat=".$gw->term_id.'&order=desc&showposts=1');
+
+
+
+
+         ?>
 
         <div class="mag-post-box first-post">
             <div class="magcat-thumb">
@@ -285,6 +234,9 @@
                 </div>
             </div>
         </div>
+
+
+
         <div class="mag-post-box">
             <div class="magcat-thumb">
                 <a href="http://pencidesign.com/soledad/soledad-magazine/furniture-makes-this-office-look-like-a-toy-box/"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cab-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="cab" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cab-1024x681.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cab-1170x778.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cab-585x389.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" /></a>
