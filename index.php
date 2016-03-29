@@ -44,7 +44,7 @@
                                 <div class="grid-post-box-meta mag-meta">
                                 <span class="author-italic">by <a
                                         href="<?php the_author_link();?>"><?php the_author();?></a></span>
-                                    <span><i class="fa fa-calendar fa-fw"></i> <?php the_time('Y年m月d日');?></span>
+                                    <span><i class="fa fa-calendar fa-fw"></i> <?php the_time('Y-m-d');?></span>
                                 </div>
                             </div>
                             <div class="mag-excerpt">
@@ -82,7 +82,7 @@
                             href="<?php the_permalink();?>"><?php the_title();?></a></h3>
 
                     <div class="grid-post-box-meta mag-meta">
-                        <span><i class="fa fa-calendar fa-fw"></i> <?php the_time("Y/m/d");?></span>
+                        <span><i class="fa fa-calendar fa-fw"></i> <?php the_time("Y-m-d");?></span>
                     </div>
 
                 </div>
@@ -134,7 +134,7 @@
                         <h3 class="magcat-titlte"><a href="<?php the_permalink();?>"><?php the_title();?></a></h3>
                         <div class="grid-post-box-meta mag-meta">
                             <span>作者 <a href="<?php the_author_link();?>"><?php the_author();?></a></span>
-                            <span><?php the_time("Y-m-d")?></span>
+                            <span><i class="fa fa-calendar fa-fw"></i> <?php the_time("Y-m-d")?></span>
                         </div>
                     </div>
                 </div>
@@ -143,19 +143,7 @@
             }
             wp_reset_query();
             ?>
-         <!--   <div class="magcat-carousel">
-                <div class="magcat-thumb">
-                    <a href="http://pencidesign.com/soledad/soledad-magazine/5-places-to-visit-in-your-lifetime/" class="mag-post-thumb">
-                        <img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="mountains" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains-1024x683.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" />					</a>
-                    <div class="magcat-detail">
-                        <h3 class="magcat-titlte"><a href="http://pencidesign.com/soledad/soledad-magazine/5-places-to-visit-in-your-lifetime/">5 Places to visit in your Lifetime</a></h3>
-                        <div class="grid-post-box-meta mag-meta">
-                            <span>by <a href="http://pencidesign.com/soledad/soledad-magazine/author/magazine/">Richard Roe</a></span>
-                            <span>September 7, 2015</span>
-                        </div>
-                    </div>
-                </div>
-            </div>-->
+
             								</div>
     </div>
 
@@ -163,25 +151,49 @@
 </section>
 <section class="home-featured-cat mag-cat-style-4">
     <div class="penci-border-arrow penci-homepage-title penci-magazine-title">
-        <h3 class="inner-arrow"><a href="http://pencidesign.com/soledad/soledad-magazine/category/editors-pick/">Editor's Pick</a></h3>
+        <?php
+            $qy = get_category_by_slug("qy");
+
+
+        ?>
+        <h3 class="inner-arrow"><a href="<?php echo get_category_link($qy) ?>"><?php echo $qy->name;?></a></h3>
     </div>
     <div class="home-featured-cat-content style-4">
         <div class="penci-slider penci-single-mag-slider" data-smooth="true" data-control="false" data-dir="true" data-auto="true" data-autotime="5000" data-speed="600">
             <ul class="slides">
 
+               <?php
+
+                 query_posts("cat=".$qy->term_id.'&order=desc&showposts=6');
+
+                 while(have_posts()){
+
+                     the_post();
+
+
+
+               ?>
+
                 <li class="mag-single-slider">
                     <div class="magcat-thumb">
-                        <a href="http://pencidesign.com/soledad/soledad-magazine/10-efficient-ways-to-save-time-in-daily-life/" class="mag-single-slider-overlay"></a>
-                        <a href="http://pencidesign.com/soledad/soledad-magazine/10-efficient-ways-to-save-time-in-daily-life/"><img width="1170" height="663" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/save-time-1170x663.jpg" class="attachment-penci-slider-thumb size-penci-slider-thumb wp-post-image" alt="save-time" /></a>
+                        <a href="<?php the_permalink();?>" class="mag-single-slider-overlay"></a>
+                        <a href="http://pencidesign.com/soledad/soledad-magazine/10-efficient-ways-to-save-time-in-daily-life/"><img width="1170" height="663" src="<?php the_post_thumbnail_url();?>" class="attachment-penci-slider-thumb size-penci-slider-thumb wp-post-image" alt="This is an image caption" /></a>
                         <div class="magcat-detail">
-                            <h3 class="magcat-titlte"><a href="http://pencidesign.com/soledad/soledad-magazine/10-efficient-ways-to-save-time-in-daily-life/">10 Efficient Ways to Save Time in Daily Life</a></h3>
+                            <h3 class="magcat-titlte"><a href="<?php the_permalink();?>"><?php the_title();?></a></h3>
                             <div class="grid-post-box-meta mag-meta">
-                                <span><a href="http://pencidesign.com/soledad/soledad-magazine/author/magazine/">Richard Roe</a></span>
-                                <span>September 7, 2015</span>
+                                <span><a href="<?php the_author_link();?>"><?php the_author();?></a></span>
+                                <span><i class="fa fa-calendar fa-fw"></i> <?php the_time("Y-m-d");?></span>
                             </div>
                         </div>
                     </div>
                 </li>
+                <?php
+
+                 }
+               wp_reset_query();
+
+                ?>
+
                 <li class="mag-single-slider">
                     <div class="magcat-thumb">
                         <a href="http://pencidesign.com/soledad/soledad-magazine/apple-watch-vs-moto-360-which-one-should-you-buy-video/" class="mag-single-slider-overlay"></a>
