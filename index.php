@@ -129,7 +129,10 @@
             <div class="magcat-carousel">
                 <div class="magcat-thumb">
                     <a href="<?php the_permalink();?>" class="mag-post-thumb">
-                        <?php the_post_thumbnail('medium');?>					</a>
+
+                        <img  src="<?php the_post_thumbnail_url('m');?>" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="<?php the_title();?>" />
+
+                    </a>
                     <div class="magcat-detail">
                         <h3 class="magcat-titlte"><a href="<?php the_permalink();?>"><?php the_title();?></a></h3>
                         <div class="grid-post-box-meta mag-meta">

@@ -86,6 +86,10 @@ if(! function_exists("colorlib_setup")):
          */
         add_theme_support( 'post-thumbnails' );
 
+        add_image_size("m",585,390,true);
+
+        add_image_size('l',1170,663,true);
+
 
         /*
 	 * Switch default core markup for search form, comment form, and comments
