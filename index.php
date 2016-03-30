@@ -34,7 +34,7 @@
                         <div class="magcat-thumb">
                             <a href="<?php the_permalink(); ?>"><img
                                     width="585" height="390"
-                                    src="<?php the_post_thumbnail_url();?>"
+                                    src="<?php the_post_thumbnail_url('m');?>"
                                     class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="<?php the_title();?>"/></a>
                         </div>
                         <div class="magcat-detail">
@@ -42,7 +42,7 @@
                                         href="<?php the_permalink(); ?>"><?php the_title();?></a></h3>
 
                                 <div class="grid-post-box-meta mag-meta">
-                                <span class="author-italic">by <a
+                                <span class="author-italic"><i class="fa fa-pencil fa-fw"></i> <a
                                         href="<?php the_author_link();?>"><?php the_author();?></a></span>
                                     <span><i class="fa fa-calendar fa-fw"></i> <?php the_time('Y-m-d');?></span>
                                 </div>
@@ -136,7 +136,7 @@
                     <div class="magcat-detail">
                         <h3 class="magcat-titlte"><a href="<?php the_permalink();?>"><?php the_title();?></a></h3>
                         <div class="grid-post-box-meta mag-meta">
-                            <span>作者 <a href="<?php the_author_link();?>"><?php the_author();?></a></span>
+                            <span><i class="fa fa-pencil fa-fw"></i> <a href="<?php the_author_link();?>"><?php the_author();?></a></span>
                             <span><i class="fa fa-calendar fa-fw"></i> <?php the_time("Y-m-d")?></span>
                         </div>
                     </div>
@@ -235,7 +235,7 @@
             <div class="magcat-detail">
                 <div class="mag-header">			<h3 class="magcat-titlte"><a href="<?php the_permalink();?>"><?php the_title();?></a></h3>
                     <div class="grid-post-box-meta mag-meta">
-                        <span class="author-italic">by <a href="<?php the_author_link();?>"><?php the_author();?></a></span>
+                        <span class="author-italic"><i class="fa fa-pencil fa-fw"></i> <a href="<?php the_author_link();?>"><?php the_author();?></a></span>
                         <span><i class="fa fa-calendar fa-fw"></i> <?php the_time("Y-m-d");?></span>
                     </div>
                 </div>					<div class="mag-excerpt">
@@ -299,37 +299,79 @@
 </div>
 <div class="home-featured-cat mag-cat-style-2">
     <div class="penci-border-arrow penci-homepage-title penci-magazine-title">
-        <h3 class="inner-arrow"><a href="http://pencidesign.com/soledad/soledad-magazine/category/entertainment/">Entertainment</a></h3>
+        <?php
+
+        $gy = get_category_by_slug("gy");
+
+        ?>
+        <h3 class="inner-arrow"><a href="<?php echo get_category_link($gy);?>"><?php echo  $gy-> name;?></a></h3>
     </div>
     <div class="home-featured-cat-content style-2">
 
+
+
+        <?php
+
+        query_posts("cat=".$gy->term_id.'&order=desc&showposts=1');
+
+        while(have_posts()){
+
+        the_post();
+
+
+
+
+
+
+        ?>
+
+
         <div class="mag-post-box first-post">
             <div class="magcat-thumb">
-                <a href="http://pencidesign.com/soledad/soledad-magazine/kermits-new-girlfriend-enrages-the-internet/"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/new-york-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="new-york" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/new-york-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/new-york-1024x683.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/new-york-1170x780.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/new-york-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" /></a>
+                <a href="<?php the_permalink();?>"><img width="585" height="390" src="<?php the_post_thumbnail_url('m')?>" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="<?php the_title();?>"/></a>
             </div>
             <div class="magcat-detail">
-                <div class="mag-header">			<h3 class="magcat-titlte"><a href="http://pencidesign.com/soledad/soledad-magazine/kermits-new-girlfriend-enrages-the-internet/">Kermit’s New Girlfriend Enrages the Internet</a></h3>
+                <div class="mag-header">			<h3 class="magcat-titlte"><a href="<?php the_permalink();?>"><?php the_title();?></a></h3>
                     <div class="grid-post-box-meta mag-meta">
-                        <span class="author-italic">by <a href="http://pencidesign.com/soledad/soledad-magazine/author/magazine/">Richard Roe</a></span>
-                        <span>September 7, 2015</span>
+                        <span class="author-italic"><i class="fa fa-pencil fa-fw"></i> <a href="<?php the_author_link();?>"><?php the_author();?></a></span>
+                        <span><i class="fa fa-calendar fa-fw"></i> <?php the_time("Y-m-d");?></span>
                     </div>
                 </div>					<div class="mag-excerpt">
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cumt sociis natoque penatibus et magnis dis&hellip;</p>
+                    <p><?php the_excerpt();?></p>
                 </div>
             </div>
         </div>
+
+        <?php
+        }
+        wp_reset_query();
+
+        query_posts("cat=".$gy->term_id.'&order=desc&showposts=3&offset=1');
+        while(have_posts()){
+        the_post();
+
+
+        ?>
+
         <div class="mag-post-box">
             <div class="magcat-thumb">
-                <a href="http://pencidesign.com/soledad/soledad-magazine/canadian-rockies-rafting-near-banff-national-park/"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="rafting-883523" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-1024x682.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-1170x780.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/rafting-883523-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" /></a>
+                <a href="<?php the_permalink();?>"><img width="585" height="390" src="<?php the_permalink();?>" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="<?php the_title();?>"  /></a>
             </div>
             <div class="magcat-detail">
-                <h3 class="magcat-titlte"><a href="http://pencidesign.com/soledad/soledad-magazine/canadian-rockies-rafting-near-banff-national-park/">Canadian Rockies Rafting near Banff National Park</a></h3>
+                <h3 class="magcat-titlte"><a href="<?php the_permalink();?>"><?php the_title();?></a></h3>
                 <div class="grid-post-box-meta mag-meta">
-                    <span>September 7, 2015</span>
+                    <span><i class="fa fa-calendar fa-fw"></i> <?php the_time("Y-m-d");?></span>
                 </div>
             </div>
         </div>
-        <div class="mag-post-box">
+        <?php
+
+         }
+
+        wp_reset_query();
+
+        ?>
+      <!--  <div class="mag-post-box">
             <div class="magcat-thumb">
                 <a href="http://pencidesign.com/soledad/soledad-magazine/10-efficient-ways-to-save-time-in-daily-life/"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/save-time-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="save-time" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/save-time-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/save-time-1024x683.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/save-time-1170x780.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/save-time-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" /></a>
             </div>
@@ -339,25 +381,15 @@
                     <span>September 7, 2015</span>
                 </div>
             </div>
-        </div>
-        <div class="mag-post-box">
-            <div class="magcat-thumb">
-                <a href="http://pencidesign.com/soledad/soledad-magazine/5-places-to-visit-in-your-lifetime/"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="mountains" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains-1024x683.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mountains-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" /></a>
-            </div>
-            <div class="magcat-detail">
-                <h3 class="magcat-titlte"><a href="http://pencidesign.com/soledad/soledad-magazine/5-places-to-visit-in-your-lifetime/">5 Places to visit in your Lifetime</a></h3>
-                <div class="grid-post-box-meta mag-meta">
-                    <span>September 7, 2015</span>
-                </div>
-            </div>
-        </div>												</div>
+        </div>-->
+      											</div>
 
 
 </div>
 
 
 <div class="penci-border-arrow penci-homepage-title">
-    <h3 class="inner-arrow">Latest Posts</h3>
+    <h3 class="inner-arrow">最近更新</h3>
 </div>
 
 <ul class="penci-grid">

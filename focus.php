@@ -20,7 +20,7 @@
         <figure class="item">
             <div class="featured-overlay featured-overlay-color"></div>
             <div class="featured-overlay featured-overlay-partent"></div>
-            <img width="1170" height="663" src="<?php the_post_thumbnail_url();?>" class="attachment-penci-slider-thumb size-penci-slider-thumb wp-post-image" alt="<?php  the_title();?>" />									<div class="featured-content">
+            <img width="1170" height="663" src="<?php the_post_thumbnail_url('l');?>" class="attachment-penci-slider-thumb size-penci-slider-thumb wp-post-image" alt="<?php  the_title();?>" />									<div class="featured-content">
                 <div class="feat-text">
                     <div class="featured-slider-overlay"></div>
                     <span class="feat-time"><?php the_time('Y-m-d');?></span>
@@ -30,7 +30,7 @@
                     </div>
                     <h3><a href="<?php the_permalink();?>"><?php  the_title();?></a></h3>
                     <div class="carousel-meta">
-                        <span class="feat-author">作者：<a href="<?php the_author_link();?>"><?php the_author(); ?></a></span>
+                        <span class="feat-author"><i class="fa fa-pencil fa-fw"></i> <a href="<?php the_author_link();?>"><?php the_author(); ?></a></span>
                         <span class="feat-comments"><a href="<?php comments_link();?>"><?php echo  get_comments_number(); ?> 评论</a></span>
                     </div>
                 </div>
