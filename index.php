@@ -180,7 +180,7 @@
                 <li class="mag-single-slider">
                     <div class="magcat-thumb">
                         <a href="<?php the_permalink();?>" class="mag-single-slider-overlay"></a>
-                        <a href="<?php the_permalink();?>"><img width="1170" height="663" src="<?php the_post_thumbnail_url();?>" class="attachment-penci-slider-thumb size-penci-slider-thumb wp-post-image" alt="This is an image caption" /></a>
+                        <a href="<?php the_permalink();?>"><img  src="<?php the_post_thumbnail_url('l');?>" class="attachment-penci-slider-thumb size-penci-slider-thumb wp-post-image" alt="This is an image caption" /></a>
                         <div class="magcat-detail">
                             <h3 class="magcat-titlte"><a href="<?php the_permalink();?>"><?php the_title();?></a></h3>
                             <div class="grid-post-box-meta mag-meta">
@@ -217,6 +217,12 @@
 
             query_posts("cat=".$gw->term_id.'&order=desc&showposts=1');
 
+            while(have_posts()){
+
+                the_post();
+
+
+
 
 
 
@@ -224,34 +230,49 @@
 
         <div class="mag-post-box first-post">
             <div class="magcat-thumb">
-                <a href="http://pencidesign.com/soledad/soledad-magazine/apple-haptic-tech-is-a-peak-at-the-ui-of-the-future/"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/mac-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="mac" /></a>
+                <a href="<?php the_permalink();?>"><img width="585" height="390" src="<?php the_post_thumbnail_url('m')?>" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="<?php the_title();?>" /></a>
             </div>
             <div class="magcat-detail">
-                <div class="mag-header">			<h3 class="magcat-titlte"><a href="http://pencidesign.com/soledad/soledad-magazine/apple-haptic-tech-is-a-peak-at-the-ui-of-the-future/">Apple’s Haptic Tech Is a peak at the UI of the Future</a></h3>
+                <div class="mag-header">			<h3 class="magcat-titlte"><a href="<?php the_permalink();?>"><?php the_title();?></a></h3>
                     <div class="grid-post-box-meta mag-meta">
-                        <span class="author-italic">by <a href="http://pencidesign.com/soledad/soledad-magazine/author/magazine/">Richard Roe</a></span>
-                        <span>September 7, 2015</span>
+                        <span class="author-italic">by <a href="<?php the_author_link();?>"><?php the_author();?></a></span>
+                        <span><i class="fa fa-calendar fa-fw"></i> <?php the_time("Y-m-d");?></span>
                     </div>
                 </div>					<div class="mag-excerpt">
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cumt sociis natoque penatibus et magnis dis&hellip;</p>
+                    <p><?php the_excerpt();?></p>
                 </div>
             </div>
         </div>
 
+        <?php
+
+            }
+         wp_reset_query();
+
+         query_posts("cat=".$gw->term_id.'&order=desc&showposts=3&offset=1');
+         while(have_posts()){
+             the_post();
+
+
+        ?>
 
 
         <div class="mag-post-box">
             <div class="magcat-thumb">
-                <a href="http://pencidesign.com/soledad/soledad-magazine/furniture-makes-this-office-look-like-a-toy-box/"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cab-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="cab" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cab-1024x681.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cab-1170x778.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/cab-585x389.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" /></a>
+                <a href="<?php the_permalink();?>"><img width="585" height="390" src="<?php the_post_thumbnail_url('m')?>" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="<?php the_title();?>" /></a>
             </div>
             <div class="magcat-detail">
-                <h3 class="magcat-titlte"><a href="http://pencidesign.com/soledad/soledad-magazine/furniture-makes-this-office-look-like-a-toy-box/">Furniture Makes This Office Look Like a Toy Box</a></h3>
+                <h3 class="magcat-titlte"><a href="<?php the_permalink();?>"><?php the_title();?></a></h3>
                 <div class="grid-post-box-meta mag-meta">
-                    <span>September 7, 2015</span>
+                    <span><i class="fa fa-calendar fa-fw"></i> <?php the_time("Y-m-d");?></span>
                 </div>
             </div>
         </div>
-        <div class="mag-post-box">
+        <?php
+        }
+        wp_reset_query();
+        ?>
+        <!--<div class="mag-post-box">
             <div class="magcat-thumb">
                 <a href="http://pencidesign.com/soledad/soledad-magazine/apple-watch-vs-moto-360-which-one-should-you-buy-video/"><img width="585" height="390" src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/smart-watch-585x390.jpg" class="attachment-penci-thumb size-penci-thumb wp-post-image" alt="This is an image caption" srcset="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/smart-watch-300x200.jpg 300w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/smart-watch-1024x683.jpg 1024w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/smart-watch-1170x780.jpg 1170w, http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/smart-watch-585x390.jpg 585w" sizes="(max-width: 585px) 100vw, 585px" /></a>
             </div>
@@ -272,7 +293,7 @@
                     <span>September 7, 2015</span>
                 </div>
             </div>
-        </div>												</div>
+        </div>-->												</div>
 
 
 </div>
