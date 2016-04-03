@@ -570,3 +570,50 @@ ul.homepage-featured-boxes .penci-fea-in:hover h4 span {
 .footer-widget-wrapper .widget .widget-title {
     text-align: center;
 }
+
+.cat > a{
+
+    font-size: 12px;
+
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin: 0 18px 0 0;
+    padding-right: 10px;
+    display: inline-block;
+    vertical-align: top;
+    background: none;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    font-weight: normal;
+    margin-bottom: 5px;
+    position: relative;
+
+}
+
+.cat > a:after {
+    content: "";
+    display: inline-block;
+    border: 1px solid #f88c00;
+    font-size: 12px;
+    margin-left: 11px;
+    position: absolute;
+    top: 50%;
+    margin-top: -3px;
+    width: 3px;
+    height: 3px;
+    transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.cat > a:first-child {
+    margin-left: 0;
+}
+.cat > a:last-child {
+    margin-right: 0;
+    padding: 0;
+}
+.cat > a:last-child:after {
+    content: none;
+    display: none;
+}
