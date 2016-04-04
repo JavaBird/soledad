@@ -167,3 +167,8 @@ function colorlib_foot_scripts(){
 }
 
 add_action('wp_footer','colorlib_foot_scripts',1);
+
+/**
+ *  最受欢迎的文章
+ */
+
