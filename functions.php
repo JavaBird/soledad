@@ -145,6 +145,7 @@ function colorlib_head_scripts(){
 
     wp_enqueue_style('colorlib_style',get_template_directory_uri().'/style.css',array(),'1.0');
     wp_enqueue_style('colorlib_base',get_template_directory_uri().'/css/base.css',array(),'1.0');
+    wp_enqueue_style('colorlib_page',get_template_directory_uri().'/css/pagenavi-css.css',array(),'1.0');
 
 
    /* wp_enqueue_script( 'colorlib-html5', get_template_directory_uri() . '/js/html5shiv.min.js', array(), '3.7.2' );

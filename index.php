@@ -398,31 +398,24 @@
 
 <div id="sidebar" class="penci-sticky-sidebar">
 <div class="theiaStickySidebar">
-<aside id="penci_social_widget-3" class="widget penci_social_widget"><h4 class="widget-title penci-border-arrow"><span class="inner-arrow">Keep in touch</span></h4>
+<!--<aside id="penci_social_widget-3" class="widget penci_social_widget"><h4 class="widget-title penci-border-arrow"><span class="inner-arrow">联系我们</span></h4>
     <div class="widget-social show-text">
-        <a href="https://www.facebook.com/PenciDesign" target="_blank"><i class="fa fa-facebook"></i><span>Facebook</span></a>
+        <a href="https://www.facebook.com/PenciDesign" target="_blank"><i class="fa fa-weixin"></i><span>微信</span></a>
 
-        <a href="#" target="_blank"><i class="fa fa-twitter"></i><span>Twitter</span></a>
+        <a href="#" target="_blank"><i class="fa fa-weibo fa-lg"></i><span>微博</span></a>
 
-        <a href="#" target="_blank"><i class="fa fa-google-plus"></i><span>Google +</span></a>
+        <a href="#" target="_blank"><i class="fa fa-facebook"></i><span>脸书</span></a>
 
-        <a href="#" target="_blank"><i class="fa fa-instagram"></i><span>Instagram</span></a>
+        <a href="#" target="_blank"><i class="fa fa-twitter"></i><span>推特</span></a>
 
-
-        <a href="#" target="_blank"><i class="fa fa-linkedin"></i><span>Linkedin</span></a>
-
-
-
-
-
-
-
+        <a href="#" target="_blank"><i class="fa fa-github"></i><span>Git</span></a>
 
         <a href="#" target="_blank"><i class="fa fa-rss"></i><span>RSS</span></a>
     </div>
-
-
-</aside><aside id="penci_popular_news_widget-2" class="widget penci_popular_news_widget"><h4 class="widget-title penci-border-arrow"><span class="inner-arrow">Popular Posts</span></h4>			<ul class="side-newsfeed">
+</aside>-->
+<aside id="text-2" class="widget widget_text">			<div class="textwidget"><img src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/banner-widget.jpg" alt="banner"></div>
+</aside>
+<aside id="penci_popular_news_widget-2" class="widget penci_popular_news_widget"><h4 class="widget-title penci-border-arrow"><span class="inner-arrow">最受欢迎主题</span></h4>			<ul class="side-newsfeed">
 
 
         <li class="penci-feed featured-news">
@@ -492,7 +485,8 @@
 
     </ul>
 
-</aside><aside id="text-2" class="widget widget_text">			<div class="textwidget"><img src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/banner-widget.jpg" alt="banner"></div>
+</aside>
+<aside id="text-2" class="widget widget_text">			<div class="textwidget"><img src="http://pencidesign.com/soledad/soledad-magazine/wp-content/uploads/sites/7/2015/09/banner-widget.jpg" alt="banner"></div>
 </aside><aside id="penci_latest_tweets_widget-2" class="widget penci_latest_tweets_widget"><h4 class="widget-title penci-border-arrow"><span class="inner-arrow">Tweets</span></h4>			<div class="penci-tweets-widget-content">
         <span class="icon-tweets"><i class="fa fa-twitter"></i></span>
         <div class="penci-slider penci-tweets-slider" data-smooth="true" data-direction="horizontal" data-auto="true" data-dir="true" data-control="false" data-autotime="5000" data-speed="500">
